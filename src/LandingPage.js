@@ -6,6 +6,9 @@ import MenuList from '@material-ui/core/MenuList';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import {makeStyles} from '@material-ui/core/styles';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
+import VocabPage from './VocabPage';
 
 import Image from './dusky_paris1.png'; //relative path import, maybe fix idk
 
@@ -44,11 +47,14 @@ const useStyles = makeStyles((theme) => ({
 
 function LandingPage() {
 
-    const classes = useStyles();
+    const classes = useStyles(); 
 
     return(
         <Grid container component = "main" className = {classes.root}>
             <CssBaseline/>
+            <Router>
+            <Switch>
+            <Route exact path = "/">
             <Grid item md={12} lg={12} className = {classes.image}>
                 <Grid className = {classes.paper}>
                     <Typography component="h1" variant='h1'>
@@ -57,14 +63,20 @@ function LandingPage() {
                 </Grid>
                 <Paper className={classes.menuPaper} >
                 <MenuList className={classes.menu} >
-                    <MenuItem>Home</MenuItem>
-                    <MenuItem>Articles</MenuItem>
-                    <MenuItem>Verbs</MenuItem>
-                    <MenuItem>Conjugations</MenuItem>
-                    <MenuItem>About</MenuItem>
+                    <MenuItem style={{fontSize: '20px'}}>Home</MenuItem>
+                    <MenuItem style={{fontSize: '20px'}} onClick={(e) => {e.preventDefault();window.location.href="/Vocab"}}>Vocab</MenuItem>
+                    <MenuItem style={{fontSize: '20px'}}>Gender of Nouns</MenuItem>
+                    <MenuItem style={{fontSize: '20px'}}>Articles</MenuItem>
+                    <MenuItem style={{fontSize: '20px'}}>Verbs</MenuItem>
+                    <MenuItem style={{fontSize: '20px'}}>Conjugations</MenuItem>
+                    <MenuItem style={{fontSize: '20px'}}>About</MenuItem>
                 </MenuList>
                 </Paper>
             </Grid>
+            </Route>
+            <Route path="/Vocab" exact component={VocabPage}/>
+            </Switch>
+            </Router>
         </Grid>
     );
 } export default LandingPage
