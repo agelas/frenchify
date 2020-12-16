@@ -1,0 +1,28 @@
+{
+    "v1" : {
+      "French" : "beau",
+      "English" : "beautiful",
+      "Wrong1": "rich",
+      "Wrong2": "mean",
+      "Wrong3": "bountiful",
+      "Part": "adjective"
+    },
+  
+    "v2" : {
+      "French" : "riche",
+      "English" : "rich",
+      "Wrong1": "poor",
+      "Wrong2": "mean",
+      "Wrong3": "bountiful",
+      "Part" : "adjective"
+    },
+    "v3" : {
+      "French" : "heureux",
+      "English" : "happy",
+      "Wrong1": "rich",
+      "Wrong2": "mean",
+      "Wrong3": "bountiful",
+      "Part" : "adjective"
+    }
+  
+  }

@@ -57,15 +57,19 @@ function ControlledOpenSelect() {
     const classes = useStyles();
     const [displayFrench, setDisplayFrench] = React.useState('');
     const [pick, setPick] = React.useState('');
-    const [option1, setOption] = React.useState('');
+    const [correct, setCorrect] = React.useState('');
+    const [wrongOption1, setWrongOption1] = React.useState('');
+    const [wrongOption2, setWrongOption2] = React.useState('');
+    const [wrongOption3, setWrongOption3] = React.useState('');
     const [open, setOpen] = React.useState(false);
 
+    //For filling in user-selection
     const handlePick = (event) => {
         setPick(event.target.value);
     };
 
     const handleOption = (event) => {
-        setOption(event.taget.value);
+        setWrongOption1(event.taget.value);
     }
 
     const handleClose = () => {
@@ -77,20 +81,41 @@ function ControlledOpenSelect() {
     };
 
     useEffect(() => {
+        //Grab the vocab word JSON object
        let source = pickRandomVocab();
+
+       //Grab the field which holds the word in French
        let wordSource = source.French;
-       wordSource = wordSource.toString().replaceAll("\"", "");
-       setDisplayFrench(wordSource);
-       console.log(wordSource);
-       console.log("what");
-    }, [displayFrench]
+
+       //Grab all the fields for the correct and incorrect translations
+       let correct = source.English;
+       let wrong1 = source.Wrong1;
+       let wrong2 = source.Wrong2;
+       let wrong3 = source.Wrong3;
+
+       //Get rid of quotation marks
+       let showWord = wordSource.toString().replaceAll("\"", "");
+       let showCorrect = correct.toString().replaceAll("\"", "");
+       let showW1 = wrong1.toString().replaceAll("\"", ""); 
+       let showW2 = wrong2.toString().replaceAll("\"", "");
+       let showW3 = wrong3.toString().replaceAll("\"", "");
+
+       //Use setter methods
+       setDisplayFrench(showWord);
+       setCorrect(showCorrect);
+       setWrongOption1(showW1);
+       setWrongOption2(showW2);
+       setWrongOption3(showW3);
+
+       //Need to put in a way to randomize where options are displayed
+       
+    }, [displayFrench, correct, wrongOption1, wrongOption2, wrongOption3]
     );
 
     return (
         <div className={classes.mainDiv}>
-            {displayFrench}
             <Typography>
-                <VocabWord displayWord={{displayFrench}}/>
+                <h2>{displayFrench} = </h2>
             </Typography>
             <FormControl className={classes.formControl}>
                 <InputLabel id="control-open-select">English</InputLabel>
@@ -103,42 +128,14 @@ function ControlledOpenSelect() {
                     value={pick}
                     onChange={handlePick}
                 >
-                    <MenuItem value="">
-                        <em>None</em>
-                    </MenuItem>
-                    <MenuItem value={10}>Ten</MenuItem>
-                    <MenuItem value={20}>Twenty</MenuItem>
-                    <MenuItem value={30}>Thirty</MenuItem>
+                    <MenuItem value={0}>{correct}</MenuItem>
+                    <MenuItem value={10}>{wrongOption1}</MenuItem>
+                    <MenuItem value={20}>{wrongOption2}</MenuItem>
+                    <MenuItem value={30}>{wrongOption3}</MenuItem>
                 </Select>
             </FormControl>
         </div>
     );
-}
-
-//On second thought there's absolutely no reason this has to be it's own component right?
-//Or we can call pickRandomWord() in ControlledOpenSelect maybe and pass word here?
-//Yeah we have hooks we can fill in with the word
-class VocabWord extends Component {
-    constructor(props) {
-        super(props);
-        this.state={
-            displayWord: "",
-            backupWord: "oops"
-        };
-    }
-    
-    componentDidMount(props) {
-        this.setState({displayWord: props})
-    }
-
-    render() {
-        return (
-            <div>
-                <h2>{this.state.backupWord} = </h2>
-                <h2>{this.state.displayWord} = </h2>
-            </div>
-        )
-    }
 }
 
 function VocabPage() {
