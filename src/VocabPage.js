@@ -1,12 +1,14 @@
-import React, {useEffect, useLayoutEffect} from 'react';
+import React, {useLayoutEffect} from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
 import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
+import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import {makeStyles} from '@material-ui/core/styles';
+import HomeIcon from '@material-ui/icons/Home';
 
 import vocab from './vocab.json';
 
@@ -32,6 +34,7 @@ const useStyles = makeStyles((theme) => ({
         position: 'absolute',
         left: '50%',
         top: '30%',
+        flexDirection: 'column',
     },
     mainDiv: {
         display: 'flex',
@@ -43,6 +46,9 @@ const useStyles = makeStyles((theme) => ({
     formControl: {
         margin: theme.spacing(1),
         minWidth: 120,
+    },
+    button: {
+        margin: theme.spacing(1),
     }
 }));
 
@@ -85,6 +91,9 @@ function ControlledOpenSelect() {
     };
 
     useLayoutEffect(() => {
+        //useLayoutEffect is identical to useEffect except that it fires synchronously after all
+        //DOM mutations which I think is what I need.
+
         //Grab the vocab word JSON object
        let source = pickRandomVocab();
 
@@ -157,6 +166,20 @@ function VocabPage() {
             <CssBaseline/>
             <Grid className = {classes.centerPane}>
                 <ControlledOpenSelect/>
+                <div>
+                    <Button
+                        variant="contained"
+                        color="primary"
+                        className={classes.button}
+                        startIcon={<HomeIcon/>}
+                        onClick = {(e) =>{
+                            e.preventDefault();
+                            window.location.href="/"
+                        }}
+                    >
+                        Home
+                    </Button>
+                </div>
             </Grid>
         </Grid>
 
