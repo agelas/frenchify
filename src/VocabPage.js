@@ -1,4 +1,4 @@
-import React, {Component, useEffect} from 'react';
+import React, {useEffect, useLayoutEffect} from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
 import InputLabel from '@material-ui/core/InputLabel';
@@ -58,19 +58,23 @@ function ControlledOpenSelect() {
     const [displayFrench, setDisplayFrench] = React.useState('');
     const [pick, setPick] = React.useState('');
     const [correct, setCorrect] = React.useState('');
+    const [correctPick, correctFlag] = React.useState(false);
     const [wrongOption1, setWrongOption1] = React.useState('');
     const [wrongOption2, setWrongOption2] = React.useState('');
     const [wrongOption3, setWrongOption3] = React.useState('');
     const [open, setOpen] = React.useState(false);
 
+
     //For filling in user-selection
     const handlePick = (event) => {
+        console.log('pick detected');
+        console.log({pick})
         setPick(event.target.value);
+        if(pick === correct) {
+            console.log('right detected');
+            correctFlag(true);
+        }
     };
-
-    const handleOption = (event) => {
-        setWrongOption1(event.taget.value);
-    }
 
     const handleClose = () => {
         setOpen(false);
@@ -80,12 +84,16 @@ function ControlledOpenSelect() {
         setOpen(true);
     };
 
-    useEffect(() => {
+    useLayoutEffect(() => {
         //Grab the vocab word JSON object
        let source = pickRandomVocab();
 
        //Grab the field which holds the word in French
        let wordSource = source.French;
+
+       //Reset the correctPick flag on rerender so we can actually alternate through
+       //more than one word
+       correctFlag(false);
 
        //Grab all the fields for the correct and incorrect translations
        let correct = source.English;
@@ -98,7 +106,7 @@ function ControlledOpenSelect() {
        let showCorrect = correct.toString().replaceAll("\"", "");
        let showW1 = wrong1.toString().replaceAll("\"", ""); 
        let showW2 = wrong2.toString().replaceAll("\"", "");
-       let showW3 = wrong3.toString().replaceAll("\"", "");
+       let showW3 = wrong3.toString().replaceAll("\"", ""); //There has got to be a better way to do this
 
        //Use setter methods
        setDisplayFrench(showWord);
@@ -109,8 +117,9 @@ function ControlledOpenSelect() {
 
        //Need to put in a way to randomize where options are displayed
        
-    }, [displayFrench, correct, wrongOption1, wrongOption2, wrongOption3]
+    }, [correctPick] //The second argument to useEffect controls rerender
     );
+
 
     return (
         <div className={classes.mainDiv}>
@@ -128,10 +137,10 @@ function ControlledOpenSelect() {
                     value={pick}
                     onChange={handlePick}
                 >
-                    <MenuItem value={0}>{correct}</MenuItem>
-                    <MenuItem value={10}>{wrongOption1}</MenuItem>
-                    <MenuItem value={20}>{wrongOption2}</MenuItem>
-                    <MenuItem value={30}>{wrongOption3}</MenuItem>
+                    <MenuItem value={correct}>{correct}</MenuItem>
+                    <MenuItem value={wrongOption1}>{wrongOption1}</MenuItem>
+                    <MenuItem value={wrongOption2}>{wrongOption2}</MenuItem>
+                    <MenuItem value={wrongOption3}>{wrongOption3}</MenuItem>
                 </Select>
             </FormControl>
         </div>
