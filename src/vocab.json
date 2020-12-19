@@ -23,6 +23,61 @@
       "Wrong2": "mean",
       "Wrong3": "bountiful",
       "Part" : "adjective"
+    },
+    "v4" : {
+      "French" : "faible",
+      "English" : "weak",
+      "Wrong1": "poor",
+      "Wrong2": "mean",
+      "Wrong3": "bountiful",
+      "Part" : "adjective"
+    },
+    "v5" : {
+      "French" : "actif",
+      "English" : "active",
+      "Wrong1": "poor",
+      "Wrong2": "lazy",
+      "Wrong3": "ardent",
+      "Part" : "adjective"
+    },
+    "v6" : {
+      "French" : "grand",
+      "English" : "big",
+      "Wrong1": "poor",
+      "Wrong2": "mean",
+      "Wrong3": "small",
+      "Part" : "adjective"
+    },
+    "v7" : {
+      "French" : "jeune",
+      "English" : "young",
+      "Wrong1": "poor",
+      "Wrong2": "mean",
+      "Wrong3": "old",
+      "Part" : "adjective"
+    },
+    "v8" : {
+      "French" : "amusant",
+      "English" : "amusing",
+      "Wrong1": "boring",
+      "Wrong2": "mean",
+      "Wrong3": "old",
+      "Part" : "adjective"
+    },
+    "v9" : {
+      "French" : "mince",
+      "English" : "thin",
+      "Wrong1": "poor",
+      "Wrong2": "mean",
+      "Wrong3": "big",
+      "Part" : "adjective"
+    },
+    "v10" : {
+      "French" : "pauvre",
+      "English" : "poor",
+      "Wrong1": "rich",
+      "Wrong2": "mean",
+      "Wrong3": "bountiful",
+      "Part" : "adjective"
     }
-  
   }

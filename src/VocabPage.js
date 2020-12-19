@@ -9,14 +9,21 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import {makeStyles} from '@material-ui/core/styles';
 import HomeIcon from '@material-ui/icons/Home';
+import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
 
 import vocab from './vocab.json';
+
+import Image from './paris_skyline2.png';
 
 const useStyles = makeStyles((theme) => ({
     root: {
         height: '100vh',
         flexGrow: 1,
-        justify: 'center'
+        justify: 'center',
+        backgroundImage: `url(${Image})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        backgroundPosition:'center center'
     },
     image: {
         height: '100vh',
@@ -32,8 +39,8 @@ const useStyles = makeStyles((theme) => ({
         justify: 'center',
         backgroundColor: '#D3D3D399',
         position: 'absolute',
-        left: '50%',
-        top: '30%',
+        left: '40%',
+        top: '25%',
         flexDirection: 'column',
     },
     mainDiv: {
@@ -76,13 +83,20 @@ function ControlledOpenSelect() {
         console.log('pick detected');
         console.log({pick})
         setPick(event.target.value);
+    };
+
+    const checkSubmission = () => {
         if(pick === correct) {
             console.log('right detected');
             correctFlag(true);
+            setPick('');
+        } else {
+            setPick('');
         }
-    };
+    }
 
     const handleClose = () => {
+        console.log('close');
         setOpen(false);
     };
     
@@ -152,6 +166,15 @@ function ControlledOpenSelect() {
                     <MenuItem value={wrongOption3}>{wrongOption3}</MenuItem>
                 </Select>
             </FormControl>
+            <Button
+                        variant="contained"
+                        color="secondary"
+                        className={classes.button}
+                        startIcon={<CheckCircleOutlineIcon/>}
+                        onClick = {checkSubmission}
+                    >
+                        Check
+                    </Button>
         </div>
     );
 }
@@ -166,7 +189,7 @@ function VocabPage() {
             <CssBaseline/>
             <Grid className = {classes.centerPane}>
                 <ControlledOpenSelect/>
-                <div>
+                <div align = 'center'>
                     <Button
                         variant="contained"
                         color="primary"
