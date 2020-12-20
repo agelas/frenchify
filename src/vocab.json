@@ -5,7 +5,8 @@
       "Wrong1": "rich",
       "Wrong2": "mean",
       "Wrong3": "bountiful",
-      "Part": "adjective"
+      "Part": "adjective",
+      "Difficulty": "beginner"
     },
   
     "v2" : {
@@ -14,7 +15,8 @@
       "Wrong1": "poor",
       "Wrong2": "mean",
       "Wrong3": "bountiful",
-      "Part" : "adjective"
+      "Part" : "adjective",
+      "Difficulty": "beginner"
     },
     "v3" : {
       "French" : "heureux",
@@ -22,7 +24,8 @@
       "Wrong1": "rich",
       "Wrong2": "mean",
       "Wrong3": "bountiful",
-      "Part" : "adjective"
+      "Part" : "adjective",
+      "Difficulty": "beginner"
     },
     "v4" : {
       "French" : "faible",
@@ -30,7 +33,8 @@
       "Wrong1": "poor",
       "Wrong2": "mean",
       "Wrong3": "bountiful",
-      "Part" : "adjective"
+      "Part" : "adjective",
+      "Difficulty": "beginner"
     },
     "v5" : {
       "French" : "actif",
@@ -38,7 +42,8 @@
       "Wrong1": "poor",
       "Wrong2": "lazy",
       "Wrong3": "ardent",
-      "Part" : "adjective"
+      "Part" : "adjective",
+      "Difficulty": "beginner"
     },
     "v6" : {
       "French" : "grand",
@@ -46,7 +51,8 @@
       "Wrong1": "poor",
       "Wrong2": "mean",
       "Wrong3": "small",
-      "Part" : "adjective"
+      "Part" : "adjective",
+      "Difficulty": "beginner"
     },
     "v7" : {
       "French" : "jeune",
@@ -54,7 +60,8 @@
       "Wrong1": "poor",
       "Wrong2": "mean",
       "Wrong3": "old",
-      "Part" : "adjective"
+      "Part" : "adjective",
+      "Difficulty": "beginner"
     },
     "v8" : {
       "French" : "amusant",
@@ -62,7 +69,8 @@
       "Wrong1": "boring",
       "Wrong2": "mean",
       "Wrong3": "old",
-      "Part" : "adjective"
+      "Part" : "adjective",
+      "Difficulty": "beginner"
     },
     "v9" : {
       "French" : "mince",
@@ -70,7 +78,8 @@
       "Wrong1": "poor",
       "Wrong2": "mean",
       "Wrong3": "big",
-      "Part" : "adjective"
+      "Part" : "adjective",
+      "Difficulty": "beginner"
     },
     "v10" : {
       "French" : "pauvre",
@@ -78,6 +87,349 @@
       "Wrong1": "rich",
       "Wrong2": "mean",
       "Wrong3": "bountiful",
-      "Part" : "adjective"
+      "Part" : "adjective",
+      "Difficulty": "beginner"
+    },
+    "v11" : {
+      "French" : "lundi",
+      "English" : "Monday",
+      "Wrong1": "Tuesday",
+      "Wrong2": "Wednesday",
+      "Wrong3": "Thursday",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v12" : {
+      "French" : "mardi",
+      "English" : "Tuesday",
+      "Wrong1": "Monday",
+      "Wrong2": "Wednesday",
+      "Wrong3": "Thursday",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v13" : {
+      "French" : "mercredi",
+      "English" : "Wednesday",
+      "Wrong1": "Tuesday",
+      "Wrong2": "Friday",
+      "Wrong3": "Thursday",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v14" : {
+      "French" : "jeudi",
+      "English" : "Thursday",
+      "Wrong1": "Tuesday",
+      "Wrong2": "Wednesday",
+      "Wrong3": "Monday",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v15" : {
+      "French" : "vendredi",
+      "English" : "Friday",
+      "Wrong1": "Tuesday",
+      "Wrong2": "Wednesday",
+      "Wrong3": "Thursday",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v16" : {
+      "French" : "samedi",
+      "English" : "Saturday",
+      "Wrong1": "Sunday",
+      "Wrong2": "Friday",
+      "Wrong3": "Thursday",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v17" : {
+      "French" : "dimanche",
+      "English" : "Sunday",
+      "Wrong1": "Saturday",
+      "Wrong2": "Friday",
+      "Wrong3": "Thursday",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v18" : {
+      "French" : "un bureau",
+      "English" : "a desk",
+      "Wrong1": "a notebook",
+      "Wrong2": "a map",
+      "Wrong3": "a screen",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v19" : {
+      "French" : "un cahier",
+      "English" : "a notebook",
+      "Wrong1": "a desk",
+      "Wrong2": "a calculator",
+      "Wrong3": "a screen",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v20" : {
+      "French" : "une calculatrice",
+      "English" : "a calculator",
+      "Wrong1": "a notebook",
+      "Wrong2": "a map",
+      "Wrong3": "a screen",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v21" : {
+      "French" : "une carte",
+      "English" : "a map",
+      "Wrong1": "a notebook",
+      "Wrong2": "a card",
+      "Wrong3": "a screen",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v22" : {
+      "French" : "une chaise",
+      "English" : "a chair",
+      "Wrong1": "a piece of chalk",
+      "Wrong2": "a map",
+      "Wrong3": "a screen",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v23" : {
+      "French" : "un crayon",
+      "English" : "a pencil",
+      "Wrong1": "a pen",
+      "Wrong2": "a map",
+      "Wrong3": "a crayon",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v24" : {
+      "French" : "un écran",
+      "English" : "a screen",
+      "Wrong1": "a pen",
+      "Wrong2": "a map",
+      "Wrong3": "a desk",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v25" : {
+      "French" : "un effaceur",
+      "English" : "an eraser",
+      "Wrong1": "a pen",
+      "Wrong2": "a map",
+      "Wrong3": "a desk",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v26" : {
+      "French" : "un étudiant",
+      "English" : "a student",
+      "Wrong1": "a pen",
+      "Wrong2": "an eraser",
+      "Wrong3": "a desk",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v27" : {
+      "French" : "une fenêtre",
+      "English" : "a window",
+      "Wrong1": "a fan",
+      "Wrong2": "a map",
+      "Wrong3": "a pen",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v28" : {
+      "French" : "un livre",
+      "English" : "a book",
+      "Wrong1": "a fan",
+      "Wrong2": "a wall",
+      "Wrong3": "a pen",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v29" : {
+      "French" : "un mur",
+      "English" : "a wall",
+      "Wrong1": "a fan",
+      "Wrong2": "a map",
+      "Wrong3": "a pen",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v30" : {
+      "French" : "un ordinateur",
+      "English" : "a computer",
+      "Wrong1": "a door",
+      "Wrong2": "a map",
+      "Wrong3": "a poster",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v31" : {
+      "French" : "une affiche",
+      "English" : "a poster",
+      "Wrong1": "a board",
+      "Wrong2": "a map",
+      "Wrong3": "a pen",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v32" : {
+      "French" : "un sac à dos",
+      "English" : "a backpack",
+      "Wrong1": "a fan",
+      "Wrong2": "a pen",
+      "Wrong3": "a computer",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v33" : {
+      "French" : "un stylo",
+      "English" : "a pen",
+      "Wrong1": "a fan",
+      "Wrong2": "a pencil",
+      "Wrong3": "a computer",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v34" : {
+      "French" : "un tableau",
+      "English" : "a board",
+      "Wrong1": "a table",
+      "Wrong2": "a map",
+      "Wrong3": "a tablet",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v35" : {
+      "French" : "un(e) ami(e)",
+      "English" : "a friend",
+      "Wrong1": "an enemy",
+      "Wrong2": "a day",
+      "Wrong3": "a newspaper",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v36" : {
+      "French" : "une année",
+      "English" : "a year",
+      "Wrong1": "a week",
+      "Wrong2": "a month",
+      "Wrong3": "a day",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v37" : {
+      "French" : "un anniversaire",
+      "English" : "a birthday",
+      "Wrong1": "a season",
+      "Wrong2": "an event",
+      "Wrong3": "a day",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v38" : {
+      "French" : "une fête",
+      "English" : "a party",
+      "Wrong1": "a birthday",
+      "Wrong2": "an event",
+      "Wrong3": "a day",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v39" : {
+      "French" : "un jour",
+      "English" : "a day",
+      "Wrong1": "a month",
+      "Wrong2": "a week",
+      "Wrong3": "a season",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v40" : {
+      "French" : "un mois",
+      "English" : "a month",
+      "Wrong1": "a season",
+      "Wrong2": "a week",
+      "Wrong3": "a day",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v41" : {
+      "French" : "une saison",
+      "English" : "a season",
+      "Wrong1": "a month",
+      "Wrong2": "a week",
+      "Wrong3": "a day",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v42" : {
+      "French" : "une semaine",
+      "English" : "a week",
+      "Wrong1": "a season",
+      "Wrong2": "a month",
+      "Wrong3": "a day",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v43" : {
+      "French" : "dans",
+      "English" : "inside",
+      "Wrong1": "behind",
+      "Wrong2": "outside",
+      "Wrong3": "under",
+      "Part" : "preposition",
+      "Difficulty": "beginner"
+    },
+    "v44" : {
+      "French" : "derrière",
+      "English" : "behind",
+      "Wrong1": "inside",
+      "Wrong2": "in front of",
+      "Wrong3": "under",
+      "Part" : "preposition",
+      "Difficulty": "beginner"
+    },
+    "v45" : {
+      "French" : "devant",
+      "English" : "in front of",
+      "Wrong1": "inside",
+      "Wrong2": "behind",
+      "Wrong3": "under",
+      "Part" : "preposition",
+      "Difficulty": "beginner"
+    },
+    "v46" : {
+      "French" : "sous",
+      "English" : "under",
+      "Wrong1": "inside",
+      "Wrong2": "in front of",
+      "Wrong3": "behind",
+      "Part" : "preposition",
+      "Difficulty": "beginner"
+    },
+    "v47" : {
+      "French" : "sur",
+      "English" : "on",
+      "Wrong1": "inside",
+      "Wrong2": "outside",
+      "Wrong3": "under",
+      "Part" : "preposition",
+      "Difficulty": "beginner"
+    },
+    "v48" : {
+      "French" : "dehors",
+      "English" : "outside",
+      "Wrong1": "inside",
+      "Wrong2": "behind",
+      "Wrong3": "under",
+      "Part" : "preposition",
+      "Difficulty": "beginner"
     }
   }
