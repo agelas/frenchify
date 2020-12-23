@@ -9,6 +9,7 @@ import {makeStyles} from '@material-ui/core/styles';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import VocabPage from './VocabPage';
+import GenderNounsPage from './GenderNounsPage';
 
 import Image from './dusky_paris1.png'; //relative path import, maybe fix idk
 
@@ -65,7 +66,7 @@ function LandingPage() {
                 <MenuList className={classes.menu} >
                     <MenuItem style={{fontSize: '20px'}}>Home</MenuItem>
                     <MenuItem style={{fontSize: '20px'}} onClick={(e) => {e.preventDefault();window.location.href="/Vocab"}}>Vocab</MenuItem>
-                    <MenuItem style={{fontSize: '20px'}}>Gender of Nouns</MenuItem>
+                    <MenuItem style={{fontSize: '20px'}} onClick={(e) => {e.preventDefault();window.location.href="/GenderNouns"}}>Gender of Nouns</MenuItem>
                     <MenuItem style={{fontSize: '20px'}}>Articles</MenuItem>
                     <MenuItem style={{fontSize: '20px'}}>Verbs</MenuItem>
                     <MenuItem style={{fontSize: '20px'}}>Conjugations</MenuItem>
@@ -75,6 +76,7 @@ function LandingPage() {
             </Grid>
             </Route>
             <Route path="/Vocab" exact component={VocabPage}/>
+            <Route path="/GenderNouns" exact component={GenderNounsPage}/>
             </Switch>
             </Router>
         </Grid>

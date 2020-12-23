@@ -1,0 +1,42 @@
+{
+"n1" : {
+    "noun" : "chaise",
+    "article" : "une",
+    "Wrong1": "un"
+  },
+  "n2" : {
+    "noun" : "crayon",
+    "article" : "un",
+    "Wrong1": "une"
+  },
+  "n3" : {
+    "noun" : "écran",
+    "article" : "un",
+    "Wrong1": "une"
+  },
+  "n4" : {
+    "noun" : "effaceur",
+    "article" : "un",
+    "Wrong1": "une"
+   },
+  "n5" : {
+    "noun" : "étudiant",
+    "article" : "un",
+    "Wrong1": "une"
+  },
+  "n6" : {
+    "noun" : "fenêtre",
+    "article" : "une",
+    "Wrong1": "un"
+  },
+  "n7" : {
+    "noun" : "livre",
+    "article" : "un",
+    "Wrong1": "une"
+  },
+  "n8" : {
+    "noun" : "mur",
+    "article" : "un",
+    "Wrong1": "une"
+  }
+}
