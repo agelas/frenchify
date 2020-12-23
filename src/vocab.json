@@ -431,5 +431,158 @@
       "Wrong3": "under",
       "Part" : "preposition",
       "Difficulty": "beginner"
+    },
+    "v49" : {
+      "French" : "méchant",
+      "English" : "mean",
+      "Wrong1": "amusing",
+      "Wrong2": "young",
+      "Wrong3": "thin",
+      "Part" : "adjective",
+      "Difficulty": "beginner"
+    },
+    "v50" : {
+      "French" : "petit",
+      "English" : "small",
+      "Wrong1": "amusing",
+      "Wrong2": "big",
+      "Wrong3": "thin",
+      "Part" : "adjective",
+      "Difficulty": "beginner"
+    },
+    "v51" : {
+      "French" : "décontracté",
+      "English" : "relaxed",
+      "Wrong1": "disillusioned",
+      "Wrong2": "young",
+      "Wrong3": "dissuaded",
+      "Part" : "adjective",
+      "Difficulty": "beginner"
+    },
+    "v52" : {
+      "French" : "fort",
+      "English" : "strong",
+      "Wrong1": "weak",
+      "Wrong2": "young",
+      "Wrong3": "fickle",
+      "Part" : "adjective",
+      "Difficulty": "beginner"
+    },
+    "v53" : {
+      "French" : "sympathique",
+      "English" : "friendly",
+      "Wrong1": "serious",
+      "Wrong2": "young",
+      "Wrong3": "funny",
+      "Part" : "adjective",
+      "Difficulty": "beginner"
+    },
+    "v54" : {
+      "French" : "triste",
+      "English" : "sad",
+      "Wrong1": "serious",
+      "Wrong2": "young",
+      "Wrong3": "funny",
+      "Part" : "adjective",
+      "Difficulty": "beginner"
+    },
+    "v55" : {
+      "French" : "vieux",
+      "English" : "old",
+      "Wrong1": "serious",
+      "Wrong2": "young",
+      "Wrong3": "funny",
+      "Part" : "adjective",
+      "Difficulty": "beginner"
+    },
+    "v56" : {
+      "French" : "laid",
+      "English" : "ugly",
+      "Wrong1": "serious",
+      "Wrong2": "young",
+      "Wrong3": "pretty",
+      "Part" : "adjective",
+      "Difficulty": "beginner"
+    },
+    "v57" : {
+      "French" : "sérieux",
+      "English" : "serious",
+      "Wrong1": "old",
+      "Wrong2": "strong",
+      "Wrong3": "funny",
+      "Part" : "adjective",
+      "Difficulty": "beginner"
+    },
+    "v58" : {
+      "French" : "déprimé",
+      "English" : "depressed",
+      "Wrong1": "deprived",
+      "Wrong2": "strong",
+      "Wrong3": "funny",
+      "Part" : "adjective",
+      "Difficulty": "beginner"
+    },
+    "v59" : {
+      "French" : "fauché",
+      "English" : "broke",
+      "Wrong1": "rich",
+      "Wrong2": "strong",
+      "Wrong3": "funny",
+      "Part" : "adjective",
+      "Difficulty": "beginner"
+    },
+    "v60" : {
+      "French" : "gentil",
+      "English" : "kind",
+      "Wrong1": "mean",
+      "Wrong2": "strong",
+      "Wrong3": "funny",
+      "Part" : "adjective",
+      "Difficulty": "beginner"
+    },
+    "v61" : {
+      "French" : "rigolo",
+      "English" : "funny",
+      "Wrong1": "mean",
+      "Wrong2": "rich",
+      "Wrong3": "fat",
+      "Part" : "adjective",
+      "Difficulty": "beginner"
+    },
+    "v62" : {
+      "French" : "aisé",
+      "English" : "well-off",
+      "Wrong1": "mean",
+      "Wrong2": "strong",
+      "Wrong3": "astute",
+      "Part" : "adjective",
+      "Difficulty": "beginner"
+    },
+    "v63" : {
+      "French" : "mignon",
+      "English" : "cute",
+      "Wrong1": "polite",
+      "Wrong2": "broke",
+      "Wrong3": "small",
+      "Part" : "adjective",
+      "Difficulty": "beginner"
+    },
+    "v64" : {
+      "French" : "ennuyeux",
+      "English" : "boring",
+      "Wrong1": "polite",
+      "Wrong2": "broke",
+      "Wrong3": "small",
+      "Part" : "adjective",
+      "Difficulty": "beginner"
+    },
+    "v65" : {
+      "French" : "poli",
+      "English" : "polite",
+      "Wrong1": "boring",
+      "Wrong2": "broke",
+      "Wrong3": "small",
+      "Part" : "adjective",
+      "Difficulty": "beginner"
     }
   }
