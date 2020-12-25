@@ -1,0 +1,23 @@
+{
+    "s1": {
+        "sentence": "Nous avons ___ farine blanche dans l'amoire",
+        "article": "de la",
+        "hint": "think partitive"
+    },
+    "s2": {
+        "sentence": "Nous avons ___ sucre brun dans l'amoire",
+        "article": "du",
+        "hint": "think partitive"
+    },
+    "s3": {
+        "sentence": "Nous avons ___ eau dans l'amoire",
+        "article": "de l'",
+        "hint": "partitive"
+    },
+    "s4": {
+        "sentence": "Nous avons ___ oeufs blanche dans le refrigerateur",
+        "article": "des",
+        "hint": "partitive"
+    }
+
+}
