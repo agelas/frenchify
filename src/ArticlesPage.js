@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useLayoutEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import FormControl from '@material-ui/core/FormControl';
 import FormHelperText from '@material-ui/core/FormHelperText';
@@ -17,6 +17,9 @@ const useStyles = makeStyles((theme) => ({
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         backgroundPosition:'center center'
+    },
+    form: {
+        margin: theme.spacing(1)
     }
 }));
 
@@ -33,4 +36,47 @@ function ComposedTextField() {
     //I mean basically the trick is making sure the user's value matches the 
     //article from the JSON. If not, trigger error box, show hint, and let them try again.
     //State variables are gonna be value, correctValue, errorMode I think
+    const [sentenceDisplay, setSentenceDisplay] = React.useStateO('');
+    const [correctArticle, setCorrectArticle] = React.useState('');
+    const [userAnswer, setUserAnswer] = React.useState('');
+    const [errorMode, setErrorMode] = React.useStaet(false);
+    const [correctFlag, setCorrectFlag] = React.useState(false);
+
+    const handleChange = (event) => {
+        setUserAnswer(event.target.value);
+    };
+
+    useEffect(() => {
+
+        //Grab our JSON that contains everything we need
+        let source = pickRandomSentence();
+
+        //Extract the sentence and correct answer 
+        let sentenceSource = source.sentence;
+        let correctSource = source.article;
+
+        //Get rid of the quotation marks
+        let showSentence = sentenceSource.toString().replaceAll("\"", "");
+        let correctAnswer = correctSource.toString().replaceAll("\"", "");
+
+        //Set our state variables
+        setSentenceDisplay(showSentence);
+        setCorrectArticle(correctAnswer);
+        setCorrectFlag(false); //This one is kinda important
+
+    }, [correctFlag]
+    );
+
+    return(
+        <div>
+            <form className = {classes.form} noValidate autoComplete="off">
+                <FormControl error = {false} variant = "outlined">
+                    <InputLabel htmlFor = "component-outlined">Article</InputLabel>
+                    <OutlinedInput id = "component-outlined" value = {userAnswer} onChange = {handleChange}/>
+                    <FormHelperText id = "component-helper-text">Something later</FormHelperText>
+                </FormControl>
+            </form>
+        </div>
+    )
+
 }

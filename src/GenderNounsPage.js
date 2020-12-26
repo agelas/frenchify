@@ -154,14 +154,14 @@ function ControlledOpenSelect() {
             <h2>{displayFrench}</h2>
         </Typography>
             <Button
-                        variant="contained"
-                        color="secondary"
-                        className={classes.button}
-                        startIcon={<CheckCircleOutlineIcon/>}
-                        onClick = {checkSubmission}
-                    >
-                        Check
-                    </Button>
+                variant="contained"
+                color="secondary"
+                className={classes.button}
+                startIcon={<CheckCircleOutlineIcon/>}
+                onClick = {checkSubmission}
+            >
+                Check
+            </Button>
         </div>
     );
 }
