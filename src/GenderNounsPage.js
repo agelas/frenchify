@@ -151,8 +151,8 @@ function ControlledOpenSelect() {
                 </Select>
             </FormControl>
             <Typography>
-            <h2>{displayFrench}</h2>
-        </Typography>
+                <h2>{displayFrench}</h2>
+            </Typography>
             <Button
                 variant="contained"
                 color="secondary"
