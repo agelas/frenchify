@@ -65,6 +65,26 @@ const pickRandomVocab = () => {
     return vocab[ran_key];
 }
 
+//Approach for shuffling array using the Fisher-Yates algorithm. Technically we introduce bias
+//towards certain permutations since we're using Javascript's Math.random() function, which can 
+//only utilize 2^32 bits of random state, so this isn't really Fisher-Yates since all permutations
+//should be equally likely. However, there's only 4 inputs into the array, so this really isn't a 
+//problem. Briefly, the algorithm proceeds as follows:
+// 1. Write down the numbers from 1 through N
+// 2. Pick a random number k between one and the number of unstruck numbers remaining (inclusive)
+// 3. Counting from the low end, strike out the Kth number not yet struck out, and write it down at the end of a seperate list
+// 4. Repeat step 2 until all the numbers have been struck out
+// 5. The sequence of numbers written down in step 3 is now a random permutation of the original numbers
+//Source: https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
+const shuffleFisherYates = (array) => {
+    let i = array.length;
+    while(i--) {
+        const ri = Math.floor(Math.random() * (i + 1));
+        [array[i], array[ri]] = [array[ri], array[i]];
+    }
+    return array;
+}
+
 function ControlledOpenSelect() {
 
     const classes = useStyles();
@@ -72,9 +92,10 @@ function ControlledOpenSelect() {
     const [pick, setPick] = React.useState('');
     const [correct, setCorrect] = React.useState('');
     const [correctPick, correctFlag] = React.useState(false);
-    const [wrongOption1, setWrongOption1] = React.useState('');
-    const [wrongOption2, setWrongOption2] = React.useState('');
-    const [wrongOption3, setWrongOption3] = React.useState('');
+    const [Option1, setOption1] = React.useState('');
+    const [Option2, setOption2] = React.useState('');
+    const [Option3, setOption3] = React.useState('');
+    const [Option4, setOption4] = React.useState('');
     const [open, setOpen] = React.useState(false);
 
 
@@ -131,12 +152,15 @@ function ControlledOpenSelect() {
        let showW2 = wrong2.toString().replaceAll("\"", "");
        let showW3 = wrong3.toString().replaceAll("\"", ""); //There has got to be a better way to do this
 
+       let optionArray = shuffleFisherYates([showCorrect, showW1, showW2, showW3]);
+
        //Use setter methods
        setDisplayFrench(showWord);
        setCorrect(showCorrect);
-       setWrongOption1(showW1);
-       setWrongOption2(showW2);
-       setWrongOption3(showW3);
+       setOption1(optionArray[0]);
+       setOption2(optionArray[1]);
+       setOption3(optionArray[2]);
+       setOption4(optionArray[3])
 
        //Need to put in a way to randomize where options are displayed
        
@@ -160,10 +184,10 @@ function ControlledOpenSelect() {
                     value={pick}
                     onChange={handlePick}
                 >
-                    <MenuItem value={correct}>{correct}</MenuItem>
-                    <MenuItem value={wrongOption1}>{wrongOption1}</MenuItem>
-                    <MenuItem value={wrongOption2}>{wrongOption2}</MenuItem>
-                    <MenuItem value={wrongOption3}>{wrongOption3}</MenuItem>
+                    <MenuItem value={Option1}>{Option1}</MenuItem>
+                    <MenuItem value={Option2}>{Option2}</MenuItem>
+                    <MenuItem value={Option3}>{Option3}</MenuItem>
+                    <MenuItem value={Option4}>{Option4}</MenuItem>
                 </Select>
             </FormControl>
             <Button

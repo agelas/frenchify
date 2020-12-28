@@ -1,10 +1,9 @@
-import React, { useEffect, useLayoutEffect } from 'react';
+import React, { useEffect} from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
 import FormControl from '@material-ui/core/FormControl';
 import FormHelperText from '@material-ui/core/FormHelperText';
-import Input from '@material-ui/core/Input';
 import InputLabel from '@material-ui/core/InputLabel';
 import OutlinedInput from '@material-ui/core/OutlinedInput';
 import Button from '@material-ui/core/Button';
@@ -38,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
         width: '25vw',
     },
     form: {
-        margin: theme.spacing(1),
+        margin: theme.spacing(2),
     },
     button: {
         margin: theme.spacing(1),
@@ -94,6 +93,8 @@ function ComposedTextField() {
         setSentenceDisplay(showSentence);
         setCorrectArticle(correctAnswer);
         setCorrectFlag(false); //This one is kinda important
+        setErrorMode(false); //If you don't want it stuck on red 
+        setUserAnswer(''); //So that previous answer isn't stuck in OutlinedInput component
 
     }, [correctFlag]
     );
@@ -104,10 +105,10 @@ function ComposedTextField() {
                 <h3>{sentenceDisplay}</h3>
             </Typography>
             <form className = {classes.form} noValidate autoComplete="off">
-                <FormControl error = {errorMode} variant = "outlined">
+                <FormControl error = {errorMode} variant = "outlined" margin="normal">
                     <InputLabel htmlFor = "component-outlined">Article</InputLabel>
-                    <OutlinedInput id = "component-outlined" value = {userAnswer} onChange = {handleChange}/>
-                    <FormHelperText id = "component-helper-text">Something later</FormHelperText>
+                    <OutlinedInput id = "component-outlined" value = {userAnswer} onChange = {handleChange} label="Article"/>
+                    <FormHelperText id = "component-helper-text"></FormHelperText>
                 </FormControl>
             </form>
             <Button
