@@ -13,7 +13,7 @@ import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
 
 import sentences from './articles.json';
 
-import Image from './rheine.png';
+import Image from './backgrounds/rheine.png';
 
 const useStyles = makeStyles((theme) => ({
     root: {

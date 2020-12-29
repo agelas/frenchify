@@ -13,7 +13,7 @@ import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
 
 import vocab from './vocab.json';
 
-import Image from './paris_skyline2.png';
+import Image from './backgrounds/paris_skyline2.png';
 
 const useStyles = makeStyles((theme) => ({
     root: {

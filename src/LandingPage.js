@@ -11,14 +11,14 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import VocabPage from './VocabPage';
 import GenderNounsPage from './GenderNounsPage';
 import ArticlesPage from './ArticlesPage';
+import About from './About';
 
-import Image from './PissaroTransfer1.png'; //relative path import, maybe fix idk
+import Image from './backgrounds/PissaroTransfer1.png'; //relative path import, maybe fix idk
 
 const useStyles = makeStyles((theme) => ({
     root: {
         height: '100vh',
-        flexGrow: 1,
-        
+        flexGrow: 1,  
     },
     image: {
         height: '100vh',
@@ -71,7 +71,7 @@ function LandingPage() {
                     <MenuItem style={{fontSize: '20px'}} onClick={(e) => {e.preventDefault();window.location.href="/Articles"}}>Articles</MenuItem>
                     <MenuItem style={{fontSize: '20px'}}>Verbs</MenuItem>
                     <MenuItem style={{fontSize: '20px'}}>Conjugations</MenuItem>
-                    <MenuItem style={{fontSize: '20px'}}>About</MenuItem>
+                    <MenuItem style={{fontSize: '20px'}} onClick={(e) => {e.preventDefault();window.location.href="/About"}}>About</MenuItem>
                 </MenuList>
                 </Paper>
             </Grid>
@@ -79,6 +79,7 @@ function LandingPage() {
             <Route path="/Vocab" exact component={VocabPage}/>
             <Route path="/GenderNouns" exact component={GenderNounsPage}/>
             <Route path="/Articles" exact component={ArticlesPage}/>
+            <Route path="/About" exact component={About}/>
             </Switch>
             </Router>
         </Grid>
