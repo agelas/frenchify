@@ -1,0 +1,38 @@
+{
+    "v1": {
+        "infinitive": "boire",
+        "tense": "present",
+        "article": "Je",
+        "conjugation": "bois"
+    },
+    "v2": {
+        "infinitive": "boire",
+        "tense": "present",
+        "article": "Tu",
+        "conjugation": "bois"
+    },
+    "v3": {
+        "infinitive": "boire",
+        "tense": "present",
+        "article": "Il",
+        "conjugation": "boit"
+    },
+    "v4": {
+        "infinitive": "boire",
+        "tense": "present",
+        "article": "Nous",
+        "conjugation": "buvons"
+    },
+    "v5": {
+        "infinitive": "boire",
+        "tense": "present",
+        "article": "Vous",
+        "conjugation": "buvez"
+    },
+    "v6": {
+        "infinitive": "boire",
+        "tense": "present",
+        "article": "Ils",
+        "conjugation": "Boivent"
+    }
+}
