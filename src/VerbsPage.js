@@ -12,7 +12,7 @@ import Typography from '@material-ui/core/Typography';
 import HomeIcon from '@material-ui/icons/Home';
 import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
 
-import Image from './backgrounds/rheine.png';
+import Image from './backgrounds/Strasbourg.png';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
         justify: 'center',
         backgroundColor: '#D3D3D399',
         position: 'absolute',
-        left: '30%',
+        left: '40%',
         top: '15%',
         flexDirection: 'column',
         width: '25vw',

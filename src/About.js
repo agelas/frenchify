@@ -40,18 +40,17 @@ function About() {
 
     const classes = useStyles();
 
-    const generalAbout = `This website was built with the intention of giving people the ability to practice their basic French. Especially for
-    those beginning their journey in French, the practice with vocabulary and articles should prove most helpful. The current available options
-    for practice include vocabulary (nouns & adjectives), gender of nouns (un vs une), articles (definite vs indefinite vs partitive), and 
+    const generalAbout = `This website was built with the intention of giving people the ability to practice beginner French concepts. For
+    those starting out with French, repetitive practice with vocabulary and articles should prove very helpful. The current available options
+    for practice include vocabulary (nouns, adjectives, prepositions), gender of nouns (un vs une), articles (definite vs indefinite vs partitive), and 
     conjugations in the present tense.`
 
     const aboutBackgrounds = `The background images were created using a machine learning technique called neural style transfer, outlined in 
-    Leon Gatys et al.'s paper: A Nerual Algorithm of Artistic Style. The basic idea revolves around taking a content image and a style image,
-    and producing a third image that is essentially the content image rendered in the same vein as the style image. For example, if you take 
-    a picture of Marseille and a picture painted by an impressionist like Pissarro, you end up with the background image for this page. I've
-    provided links to Gatys et al.'s paper, the implementation of neural style transfer I used (VGG 19), and my own version (very small changes that
-    replaced TensorFlow 1.0 lingo with TensorFlow 2.0 and make it easier to upload images directly from one's computer) of the aforementioned 
-    implementation, below. It's pretty fun to watch a picture you took turn into something Van Gogh or Monet might have painted, so feel free to 
+    Leon Gatys et al.'s paper: "A Nerual Algorithm of Artistic Style". The basic idea revolves around using a content image and a style image
+    to produce a third image, which is the content image rendered in the same vein as the style image. For example, if you take 
+    a picture of Marseille (content image) and a picture painted by an impressionist painter like Pissarro (style image), you might end up with the current background image. I've
+    provided links to Gatys et al.'s paper, the implementation of neural style transfer I used (VGG 19), and my own version of VGG19. My version has very small tweaks that
+    bump TensorFlow 1.0 lingo to TensorFlow 2.0, and make it easier to upload images directly from one's computer below. It's pretty fun to watch a picture you took turn into something Van Gogh or Monet might have painted, so feel free to 
     play around.`
 
     const errors = `If you happen to notice any errors, please follow the link below to the github repository for this website, and open a new 
@@ -64,7 +63,7 @@ function About() {
                     <Box m ={3}>
                     <Grid item xs zeroMinWidth>
                         <Typography align = 'left' variant = 'h4'>About</Typography>
-                        <Typography align = 'center'>{generalAbout}</Typography>
+                        <Typography align = 'left'>{generalAbout}</Typography>
                     </Grid>
                     </Box>
                 </Grid>
