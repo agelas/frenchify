@@ -584,5 +584,212 @@
       "Wrong3": "small",
       "Part" : "adjective",
       "Difficulty": "beginner"
+    },
+    "v66" : {
+      "French" : "un beau-fils",
+      "English" : "a stepson",
+      "Wrong1": "a stepdaughter",
+      "Wrong2": "a stepfather",
+      "Wrong3": "a stepmother",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v67" : {
+      "French" : "un beau-père",
+      "English" : "a stepfather",
+      "Wrong1": "a stepdaughter",
+      "Wrong2": "a stepbrother",
+      "Wrong3": "a stepmother",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v68" : {
+      "French" : "une belle-fille",
+      "English" : "a stepdaughter",
+      "Wrong1": "a stepson",
+      "Wrong2": "a stepbrother",
+      "Wrong3": "a stepmother",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v69" : {
+      "French" : "un beau-mère",
+      "English" : "a stepmother",
+      "Wrong1": "a stepdaughter",
+      "Wrong2": "a stepbrother",
+      "Wrong3": "a stepfather",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v70" : {
+      "French" : "un chat",
+      "English" : "a cat",
+      "Wrong1": "a dog",
+      "Wrong2": "a mouse",
+      "Wrong3": "a bird",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v71" : {
+      "French" : "un chien",
+      "English" : "a dog",
+      "Wrong1": "a cat",
+      "Wrong2": "a rabbit",
+      "Wrong3": "a bird",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v72" : {
+      "French" : "un mari",
+      "English" : "a husband",
+      "Wrong1": "a wife",
+      "Wrong2": "a couple",
+      "Wrong3": "a mother",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v73" : {
+      "French" : "un neveu",
+      "English" : "a nephew",
+      "Wrong1": "a niece",
+      "Wrong2": "a father",
+      "Wrong3": "a mother",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v74" : {
+      "French" : "une nièce",
+      "English" : "a niece",
+      "Wrong1": "a wife",
+      "Wrong2": "a nephew",
+      "Wrong3": "a mother",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v75" : {
+      "French" : "un petit-fils",
+      "English" : "a grandson",
+      "Wrong1": "a granddaughter",
+      "Wrong2": "a nephew",
+      "Wrong3": "a niece",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v76" : {
+      "French" : "une petit-fille",
+      "English" : "a granddaughter",
+      "Wrong1": "a grandson",
+      "Wrong2": "a nephew",
+      "Wrong3": "a niece",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v77" : {
+      "French" : "une tante",
+      "English" : "an aunt",
+      "Wrong1": "an uncle",
+      "Wrong2": "a nephew",
+      "Wrong3": "a niece",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v78" : {
+      "French" : "un avocat",
+      "English" : "a lawyer",
+      "Wrong1": "a manager",
+      "Wrong2": "a nurse",
+      "Wrong3": "a dentist",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v79" : {
+      "French" : "un coiffeur",
+      "English" : "a hairdresser",
+      "Wrong1": "a conposer",
+      "Wrong2": "a nurse",
+      "Wrong3": "a dentist",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v80" : {
+      "French" : "un comptable",
+      "English" : "an accountant",
+      "Wrong1": "a manager",
+      "Wrong2": "a nurse",
+      "Wrong3": "a composer",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v81" : {
+      "French" : "un écrivain",
+      "English" : "a writer",
+      "Wrong1": "a lawyer",
+      "Wrong2": "a nurse",
+      "Wrong3": "a dentist",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v82" : {
+      "French" : "un facteur",
+      "English" : "a postal worker",
+      "Wrong1": "a factory worker",
+      "Wrong2": "a nurse",
+      "Wrong3": "a dentist",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v83" : {
+      "French" : "un infirmier",
+      "English" : "a nurse",
+      "Wrong1": "a lawyer",
+      "Wrong2": "a writer",
+      "Wrong3": "a dentist",
+      "Part" : "noun",
+      "Difficulty": "beginner"
+    },
+    "v84" : {
+      "French" : "aîné(e)",
+      "English" : "older",
+      "Wrong1" : "younger",
+      "Wrong2" : "larger",
+      "Wrong3" : "smaller",
+      "Part" : "adjective",
+      "Difficulty" : "beginner"
+    },
+    "v85" : {
+      "French" : "cadet(te)",
+      "English" : "younger",
+      "Wrong1" : "older",
+      "Wrong2" : "larger",
+      "Wrong3" : "smaller",
+      "Part" : "adjective",
+      "Difficulty" : "beginner"
+    },
+    "v86" : {
+      "French" : "maintenant",
+      "English" : "now",
+      "Wrong1" : "soon",
+      "Wrong2" : "recently",
+      "Wrong3" : "frequently",
+      "Part" : "adverb",
+      "Difficulty" : "beginner"
+    },
+    "v87" : {
+      "French" : "bientôt",
+      "English" : "soon",
+      "Wrong1" : "now",
+      "Wrong2" : "recently",
+      "Wrong3" : "frequently",
+      "Part" : "adverb",
+      "Difficulty" : "beginner"
+    },
+    "v88" : {
+      "French" : "récemment",
+      "English" : "recently",
+      "Wrong1" : "now",
+      "Wrong2" : "soon",
+      "Wrong3" : "frequently",
+      "Part" : "adverb",
+      "Difficulty" : "beginner"
     }
   }

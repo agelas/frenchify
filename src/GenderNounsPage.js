@@ -72,7 +72,6 @@ function ControlledOpenSelect() {
     const [pick, setPick] = React.useState('');
     const [correct, setCorrect] = React.useState('');
     const [correctPick, correctFlag] = React.useState(false);
-    const [wrongOption1, setWrongOption1] = React.useState('');
     const [open, setOpen] = React.useState(false);
 
 
@@ -115,19 +114,14 @@ function ControlledOpenSelect() {
 
        //Grab all the fields for the correct and incorrect translations
        let correct = source.article;
-       let wrong1 = source.Wrong1;
+       //let wrong1 = source.Wrong1;
 
        //Get rid of quotation marks
        let showWord = wordSource.toString().replaceAll("\"", "");
-       let showCorrect = correct.toString().replaceAll("\"", "");
-       let showW1 = wrong1.toString().replaceAll("\"", ""); 
 
        //Use setter methods
        setDisplayFrench(showWord);
-       setCorrect(showCorrect);
-       setWrongOption1(showW1);
-
-       //Need to put in a way to randomize where options are displayed
+       setCorrect(correct);
        
     }, [correctPick] //The second argument to useEffect controls rerender
     );
@@ -146,8 +140,8 @@ function ControlledOpenSelect() {
                     value={pick}
                     onChange={handlePick}
                 >
-                    <MenuItem value={correct}>{correct}</MenuItem>
-                    <MenuItem value={wrongOption1}>{wrongOption1}</MenuItem>
+                    <MenuItem value={"un"}>un</MenuItem>
+                    <MenuItem value={"une"}>une</MenuItem>
                 </Select>
             </FormControl>
             <Typography>
