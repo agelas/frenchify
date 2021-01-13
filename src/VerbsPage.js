@@ -11,6 +11,12 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import HomeIcon from '@material-ui/icons/Home';
 import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
+import InfoIcon from '@material-ui/icons/Info';
+import Dialog from '@material-ui/core/Dialog';
+import DialogActions from '@material-ui/core/DialogActions';
+import DialogContent from '@material-ui/core/DialogContent';
+import DialogContentText from '@material-ui/core/DialogContentText';
+import DialogTitle from '@material-ui/core/DialogTitle';
 
 import Image from './backgrounds/Strasbourg.png';
 
@@ -38,8 +44,23 @@ const useStyles = makeStyles((theme) => ({
     form: {
         margin: theme.spacing(2),
     },
+    divider: {
+        display: 'flex',
+        direction: 'row'
+    },
+    spacer: {
+        margin: 8
+    },
     button: {
         margin: theme.spacing(1),
+    },
+    infoButton: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        margin: 'auto',
+        height: '2vw',
+        width: '1vw'
     }
 }));
 
@@ -54,6 +75,7 @@ function ComposedTextField() {
     const [userAnswer, setUserAnswer] = React.useState('');
     const [errorMode, setErrorMode] = React.useState(false);
     const [correctFlag, setCorrectFlag] = React.useState(false);
+    const [open, setOpen] = React.useState(false);
 
     const pickRandomVerb = (list) => {
         var obj_keys = Object.keys(list);
@@ -76,15 +98,20 @@ function ComposedTextField() {
     const loadData = async() => {
         const response = await fetch('verbs.json');
         const json = await response.json();
-        //console.log(json); //json is exactly what I want here
-        //console.log(data); //data is just '[]' here
         return json;
+    }
+
+    const handleClickOpen = () => {
+        setOpen(true);
+    };
+
+    const handleClose = () => {
+        setOpen(false);
     }
 
     useAsyncEffect(async () => {
         
         const data = await loadData();
-        //setDataLoaded(true);
         console.log(data);
 
         let source = pickRandomVerb(data)
@@ -113,16 +140,52 @@ function ComposedTextField() {
 
     return(
         <div>
+        <div align='center' align-items='center'>
             <Typography className = {classes.form}>
-                <h3>{displayPronoun} ({displayVerb}) [{tense}]</h3>
+                <h2>{displayVerb}</h2>
             </Typography>
-            <form className = {classes.form} noValidate autoComplete="off">
+        </div>
+        <div className = {classes.divider}>
+            <Typography className = {classes.spacer}>
+                <h2>{displayPronoun}</h2>
+            </Typography>
+            <form className = {classes.spacer} noValidate autoComplete="off">
                 <FormControl error = {errorMode} variant = "outlined" margin="normal">
-                    <InputLabel htmlFor = "component-outlined">Conjugation</InputLabel>
+                    <InputLabel htmlFor = "component-outlined">{tense}</InputLabel>
                     <OutlinedInput id = "component-outlined" value = {userAnswer} onChange = {handleChange} label="Conjugation"/>
                     <FormHelperText id = "component-helper-text"></FormHelperText>
                 </FormControl>
             </form>
+            <Button
+                variant="contained"
+                color="primary"
+                alignItems= 'center'
+                justifyContent= 'center'
+                className={classes.infoButton}
+                startIcon={<InfoIcon/>}
+                size='small'
+                onClick = {handleClickOpen}
+            >
+            Info
+            </Button>
+            <Dialog
+                open = {open}
+                onClose = {handleClose}
+            >
+                <DialogTitle id="dialog-title">{"Information"}</DialogTitle>
+                <DialogContent>
+                    <DialogContentText id="dialog-content">
+                        Enter the conjugation of the verb shown into the input field. For compound tenses such as the passé composé
+                        or plus-que-parfait, you must include the auxiliary verb. If you need accented letters, feel free to copy-and-paste
+                        from the following: à é è ê î ô
+                    </DialogContentText>
+                    <DialogActions>
+                        <Button onClick = {handleClose} color = "primary">
+                            Close
+                        </Button>
+                    </DialogActions>
+                </DialogContent>
+            </Dialog>
             <Button
                 variant="contained"
                 color="secondary"
@@ -132,6 +195,7 @@ function ComposedTextField() {
             >
                 Check
             </Button>
+        </div>
         </div>
     )
 }
