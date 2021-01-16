@@ -9,7 +9,13 @@ import OutlinedInput from '@material-ui/core/OutlinedInput';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import HomeIcon from '@material-ui/icons/Home';
+import InfoIcon from '@material-ui/icons/Info';
 import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
+import Dialog from '@material-ui/core/Dialog';
+import DialogActions from '@material-ui/core/DialogActions';
+import DialogContent from '@material-ui/core/DialogContent';
+import DialogContentText from '@material-ui/core/DialogContentText';
+import DialogTitle from '@material-ui/core/DialogTitle';
 
 import sentences from './articles.json';
 
@@ -62,6 +68,7 @@ function ComposedTextField() {
     const [userAnswer, setUserAnswer] = React.useState('');
     const [errorMode, setErrorMode] = React.useState(false);
     const [correctFlag, setCorrectFlag] = React.useState(false);
+    const [open, setOpen] = React.useState(false);
 
     const handleChange = (event) => {
         setUserAnswer(event.target.value);
@@ -75,6 +82,14 @@ function ComposedTextField() {
             setErrorMode(true);
         }
     };
+
+    const handleClickOpen = () => {
+        setOpen(true);
+    }
+
+    const handleClose = () => {
+        setOpen(false);
+    }
 
     useEffect(() => {
 
@@ -111,6 +126,32 @@ function ComposedTextField() {
                     <FormHelperText id = "component-helper-text"></FormHelperText>
                 </FormControl>
             </form>
+            <Button
+                variant="contained"
+                color="secondary"
+                className={classes.button}
+                startIcon={<InfoIcon/>}
+                onClick = {handleClickOpen}
+            >
+                Info
+            </Button>
+            <Dialog
+                open = {open}
+                onClose = {handleClose}
+            >
+                <DialogTitle id="dialog-title">{"Information"}</DialogTitle>
+                <DialogContent>
+                    <DialogContentText id="dialog-content">
+                        Enter the correct article that would fill in the blank for the sentence shown. The answer
+                        will either be definite (le, las, l', les), indefinite (un, une, des), or partitive (du, de la, de l').  
+                    </DialogContentText>
+                    <DialogActions>
+                        <Button onClick = {handleClose} color = "primary">
+                            Close
+                        </Button>
+                    </DialogActions>
+                </DialogContent>
+            </Dialog>
             <Button
                 variant="contained"
                 color="secondary"

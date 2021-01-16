@@ -176,8 +176,9 @@ function ComposedTextField() {
                 <DialogContent>
                     <DialogContentText id="dialog-content">
                         Enter the conjugation of the verb shown into the input field. For compound tenses such as the passé composé
-                        or plus-que-parfait, you must include the auxiliary verb. If you need accented letters, feel free to copy-and-paste
-                        from the following: à é è ê î ô
+                        or plus-que-parfait, you must include the auxiliary verb. For gender/number matching, include letters in parenthesis.
+                        For example, vous êtes allé(e)(s), since the subject could be singular or plural male/female. If you need accented letters, 
+                        feel free to copy-and-paste from the following: à é è ê î ô
                     </DialogContentText>
                     <DialogActions>
                         <Button onClick = {handleClose} color = "primary">

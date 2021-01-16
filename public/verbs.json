@@ -214,5 +214,545 @@
         "tense": "passé composé",
         "pronoun": "Ils",
         "conjugation": "ont eu"
+    },
+    "Prendre1": {
+        "infinitive": "Prendre",
+        "tense": "présent",
+        "pronoun": "Je",
+        "conjugation": "prends"
+        },
+    "Prendre2": {
+        "infinitive": "Prendre",
+        "tense": "présent",
+        "pronoun": "Tu",
+        "conjugation": "prends"
+    },
+    "Prendre3": {
+        "infinitive": "Prendre",
+        "tense": "présent",
+        "pronoun": "Il",
+        "conjugation": "prend"
+    },
+    "Prendre4": {
+        "infinitive": "Prendre",
+        "tense": "présent",
+        "pronoun": "Nous",
+        "conjugation": "prenons"
+    },
+    "Prendre5": {
+        "infinitive": "Prendre",
+        "tense": "présent",
+        "pronoun": "Vous",
+        "conjugation": "prenez"
+    },
+    "Prendre6": {
+        "infinitive": "Prendre",
+        "tense": "présent",
+        "pronoun": "Ils",
+        "conjugation": "prennent"
+    },
+    "Prendre7": {
+        "infinitive": "Prendre",
+        "tense": "imparfait",
+        "pronoun": "Je",
+        "conjugation": "prenais"
+    },
+    "Prendre8": {
+        "infinitive": "Prendre",
+        "tense": "imparfait",
+        "pronoun": "Tu",
+        "conjugation": "prenais"
+    },
+    "Prendre9": {
+        "infinitive": "Prendre",
+        "tense": "imparfait",
+        "pronoun": "Il",
+        "conjugation": "prenait"
+    },
+    "Prendre10": {
+        "infinitive": "Prendre",
+        "tense": "imparfait",
+        "pronoun": "Nous",
+        "conjugation": "prenions"
+    },
+    "Prendre11": {
+        "infinitive": "Prendre",
+        "tense": "imparfait",
+        "pronoun": "Vous",
+        "conjugation": "preniez"
+    },
+    "Prendre12": {
+        "infinitive": "Prendre",
+        "tense": "imparfait",
+        "pronoun": "Ils",
+        "conjugation": "prenaient"
+    },
+    "Prendre13": {
+        "infinitive": "Prendre",
+        "tense": "passé composé",
+        "pronoun": "J'",
+        "conjugation": "ai pris"
+    },
+    "Prendre14": {
+        "infinitive": "Prendre",
+        "tense": "passé composé",
+        "pronoun": "Tu",
+        "conjugation": "as pris"
+    },
+    "Prendre15": {
+        "infinitive": "Prendre",
+        "tense": "passé composé",
+        "pronoun": "Il",
+        "conjugation": "a pris"
+    },
+    "Prendre16": {
+        "infinitive": "Prendre",
+        "tense": "passé composé",
+        "pronoun": "Nous",
+        "conjugation": "avons pris"
+    },
+    "Prendre17": {
+        "infinitive": "Prendre",
+        "tense": "passé composé",
+        "pronoun": "Vous",
+        "conjugation": "avez pris"
+    },
+    "Prendre18": {
+        "infinitive": "Prendre",
+        "tense": "passé composé",
+        "pronoun": "Ils",
+        "conjugation": "ont pris"
+    },
+    "Avoir1": {
+        "infinitive": "Avoir",
+        "tense": "présent",
+        "pronoun": "J'",
+        "conjugation": "ai"
+    },
+    "Avoir2": {
+        "infinitive": "Avoir",
+        "tense": "présent",
+        "pronoun": "Tu",
+        "conjugation": "as"
+    },
+    "Avoir3": {
+        "infinitive": "Avoir",
+        "tense": "présent",
+        "pronoun": "Il",
+        "conjugation": "a"
+    },
+    "Avoir4": {
+        "infinitive": "Avoir",
+        "tense": "présent",
+        "pronoun": "Nous",
+        "conjugation": "avons"
+    },
+    "Avoir5": {
+        "infinitive": "Avoir",
+        "tense": "présent",
+        "pronoun": "Vous",
+        "conjugation": "avez"
+    },
+    "Avoir6": {
+        "infinitive": "Avoir",
+        "tense": "présent",
+        "pronoun": "Ils",
+        "conjugation": "ont"
+    },
+    "Avoir7": {
+        "infinitive": "Avoir",
+        "tense": "imparfait",
+        "pronoun": "J'",
+        "conjugation": "avais"
+    },
+    "Avoir8": {
+        "infinitive": "Avoir",
+        "tense": "imparfait",
+        "pronoun": "Tu",
+        "conjugation": "avais"
+    },
+    "Avoir9": {
+        "infinitive": "Avoir",
+        "tense": "imparfait",
+        "pronoun": "Il",
+        "conjugation": "avait"
+    },
+    "Avoir10": {
+        "infinitive": "Avoir",
+        "tense": "imparfait",
+        "pronoun": "Nous",
+        "conjugation": "avions"
+    },
+    "Avoir11": {
+        "infinitive": "Avoir",
+        "tense": "imparfait",
+        "pronoun": "Vous",
+        "conjugation": "aviez"
+    },
+    "Avoir12": {
+        "infinitive": "Avoir",
+        "tense": "imparfait",
+        "pronoun": "Ils",
+        "conjugation": "avaient"
+    },
+    "Avoir13": {
+        "infinitive": "Avoir",
+        "tense": "passé composé",
+        "pronoun": "J'",
+        "conjugation": "ai eu"
+    },
+    "Avoir14": {
+        "infinitive": "Avoir",
+        "tense": "passé composé",
+        "pronoun": "Tu",
+        "conjugation": "as eu"
+    },
+    "Avoir15": {
+        "infinitive": "Avoir",
+        "tense": "passé composé",
+        "pronoun": "Il",
+        "conjugation": "a eu"
+    },
+    "Avoir16": {
+        "infinitive": "Avoir",
+        "tense": "passé composé",
+        "pronoun": "Nous",
+        "conjugation": "avons eu"
+    },
+    "Avoir17": {
+        "infinitive": "Avoir",
+        "tense": "passé composé",
+        "pronoun": "Vous",
+        "conjugation": "avez eu"
+    },
+    "Avoir18": {
+        "infinitive": "Avoir",
+        "tense": "passé composé",
+        "pronoun": "Ils",
+        "conjugation": "ont eu"
+    },
+    "Aller1": {
+        "infinitive": "Aller",
+        "tense": "présent",
+        "pronoun": "Je",
+        "conjugation": "vais"
+    },
+    "Aller2": {
+        "infinitive": "Aller",
+        "tense": "présent",
+        "pronoun": "Tu",
+        "conjugation": "vas"
+    },
+    "Aller3": {
+        "infinitive": "Aller",
+        "tense": "présent",
+        "pronoun": "Il",
+        "conjugation": "va"
+    },
+    "Aller4": {
+        "infinitive": "Aller",
+        "tense": "présent",
+        "pronoun": "Nous",
+        "conjugation": "allons"
+    },
+    "Aller5": {
+        "infinitive": "Aller",
+        "tense": "présent",
+        "pronoun": "Vous",
+        "conjugation": "allez"
+    },
+    "Aller6": {
+        "infinitive": "Aller",
+        "tense": "présent",
+        "pronoun": "Ils",
+        "conjugation": "vont"
+    },
+    "Aller7": {
+        "infinitive": "Aller",
+        "tense": "imparfait",
+        "pronoun": "Je",
+        "conjugation": "allais"
+    },
+    "Aller8": {
+        "infinitive": "Aller",
+        "tense": "imparfait",
+        "pronoun": "Tu",
+        "conjugation": "allais"
+    },
+    "Aller9": {
+        "infinitive": "Aller",
+        "tense": "imparfait",
+        "pronoun": "Il",
+        "conjugation": "allait"
+    },
+    "Aller10": {
+        "infinitive": "Aller",
+        "tense": "imparfait",
+        "pronoun": "Nous",
+        "conjugation": "allions"
+    },
+    "Aller11": {
+        "infinitive": "Aller",
+        "tense": "imparfait",
+        "pronoun": "Vous",
+        "conjugation": "alliez"
+    },
+    "Aller12": {
+        "infinitive": "Aller",
+        "tense": "imparfait",
+        "pronoun": "Ils",
+        "conjugation": "allaient"
+    },
+    "Aller13": {
+        "infinitive": "Aller",
+        "tense": "passé composé",
+        "pronoun": "Je",
+        "conjugation": "suis allé(e)"
+    },
+    "Aller14": {
+        "infinitive": "Aller",
+        "tense": "passé composé",
+        "pronoun": "Tu",
+        "conjugation": "es allé(e)"
+    },
+    "Aller15": {
+        "infinitive": "Aller",
+        "tense": "passé composé",
+        "pronoun": "Elle",
+        "conjugation": "est allée"
+    },
+    "Aller16": {
+        "infinitive": "Aller",
+        "tense": "passé composé",
+        "pronoun": "Nous",
+        "conjugation": "sommes allé(e)(s)"
+    },
+    "Aller17": {
+        "infinitive": "Aller",
+        "tense": "passé composé",
+        "pronoun": "Vous",
+        "conjugation": "êtes allé(e)(s)"
+    },
+    "Aller18": {
+        "infinitive": "Aller",
+        "tense": "passé composé",
+        "pronoun": "Elles",
+        "conjugation": "sont allées"
+    },
+    "Venir1": {
+        "infinitive": "Venir",
+        "tense": "présent",
+        "pronoun": "Je",
+        "conjugation": "viens"
+    },
+    "Venir2": {
+        "infinitive": "Venir",
+        "tense": "présent",
+        "pronoun": "Tu",
+        "conjugation": "viens"
+    },
+    "Venir3": {
+        "infinitive": "Venir",
+        "tense": "présent",
+        "pronoun": "Il",
+        "conjugation": "vient"
+    },
+    "Venir4": {
+        "infinitive": "Venir",
+        "tense": "présent",
+        "pronoun": "Nous",
+        "conjugation": "venons"
+    },
+    "Venir5": {
+        "infinitive": "Venir",
+        "tense": "présent",
+        "pronoun": "Vous",
+        "conjugation": "venez"
+    },
+    "Venir6": {
+        "infinitive": "Venir",
+        "tense": "présent",
+        "pronoun": "Ils",
+        "conjugation": "viennent"
+    },
+    "Venir7": {
+        "infinitive": "Venir",
+        "tense": "imparfait",
+        "pronoun": "Je",
+        "conjugation": "venais"
+    },
+    "Venir8": {
+        "infinitive": "Venir",
+        "tense": "imparfait",
+        "pronoun": "Tu",
+        "conjugation": "venais"
+    },
+    "Venir9": {
+        "infinitive": "Venir",
+        "tense": "imparfait",
+        "pronoun": "Il",
+        "conjugation": "venait"
+    },
+    "Venir10": {
+        "infinitive": "Venir",
+        "tense": "imparfait",
+        "pronoun": "Nous",
+        "conjugation": "venions"
+    },
+    "Venir11": {
+        "infinitive": "Venir",
+        "tense": "imparfait",
+        "pronoun": "Vous",
+        "conjugation": "veniez"
+    },
+    "Venir12": {
+        "infinitive": "Venir",
+        "tense": "imparfait",
+        "pronoun": "Ils",
+        "conjugation": "venaient"
+    },
+    "Venir13": {
+        "infinitive": "Venir",
+        "tense": "passé composé",
+        "pronoun": "Je",
+        "conjugation": "suis venu(e)"
+    },
+    "Venir14": {
+        "infinitive": "Venir",
+        "tense": "passé composé",
+        "pronoun": "Tu",
+        "conjugation": "es venu(e)"
+    },
+    "Venir15": {
+        "infinitive": "Venir",
+        "tense": "passé composé",
+        "pronoun": "Il",
+        "conjugation": "est venu(e)"
+    },
+    "Venir16": {
+        "infinitive": "Venir",
+        "tense": "passé composé",
+        "pronoun": "Nous",
+        "conjugation": "sommes venu(e)s"
+    },
+    "Venir17": {
+        "infinitive": "Venir",
+        "tense": "passé composé",
+        "pronoun": "Vous",
+        "conjugation": "êtes venu(e)(s)"
+    },
+    "Venir18": {
+        "infinitive": "Venir",
+        "tense": "passé composé",
+        "pronoun": "Ils",
+        "conjugation": "sont venus"
+    },
+    "Rentrer1": {
+        "infinitive": "Rentrer",
+        "tense": "présent",
+        "pronoun": "Je",
+        "conjugation": "rentre"
+    },
+    "Rentrer2": {
+        "infinitive": "Rentrer",
+        "tense": "présent",
+        "pronoun": "Tu",
+        "conjugation": "rentres"
+    },
+    "Rentrer3": {
+        "infinitive": "Rentrer",
+        "tense": "présent",
+        "pronoun": "Il",
+        "conjugation": "rentre"
+    },
+    "Rentrer4": {
+        "infinitive": "Rentrer",
+        "tense": "présent",
+        "pronoun": "Nous",
+        "conjugation": "rentrons"
+    },
+    "Rentrer5": {
+        "infinitive": "Rentrer",
+        "tense": "présent",
+        "pronoun": "Vous",
+        "conjugation": "rentrez"
+    },
+    "Rentrer6": {
+        "infinitive": "Rentrer",
+        "tense": "présent",
+        "pronoun": "Ils",
+        "conjugation": "rentrent"
+    },
+    "Rentrer7": {
+        "infinitive": "Rentrer",
+        "tense": "imparfait",
+        "pronoun": "Je",
+        "conjugation": "rentrais"
+    },
+    "Rentrer8": {
+        "infinitive": "Rentrer",
+        "tense": "imparfait",
+        "pronoun": "Tu",
+        "conjugation": "rentrais"
+    },
+    "Rentrer9": {
+        "infinitive": "Rentrer",
+        "tense": "imparfait",
+        "pronoun": "Il",
+        "conjugation": "rentrait"
+    },
+    "Rentrer10": {
+        "infinitive": "Rentrer",
+        "tense": "imparfait",
+        "pronoun": "Nous",
+        "conjugation": "rentrions"
+    },
+    "Rentrer11": {
+        "infinitive": "Rentrer",
+        "tense": "imparfait",
+        "pronoun": "Vous",
+        "conjugation": "rentriez"
+    },
+    "Rentrer12": {
+        "infinitive": "Rentrer",
+        "tense": "imparfait",
+        "pronoun": "Ils",
+        "conjugation": "rentraient"
+    },
+    "Rentrer13": {
+        "infinitive": "Rentrer",
+        "tense": "passé composé",
+        "pronoun": "Je",
+        "conjugation": "suis rentré(e)"
+    },
+    "Rentrer14": {
+        "infinitive": "Rentrer",
+        "tense": "passé composé",
+        "pronoun": "Tu",
+        "conjugation": "es rentré(e)"
+    },
+    "Rentrer15": {
+        "infinitive": "Rentrer",
+        "tense": "passé composé",
+        "pronoun": "Il",
+        "conjugation": "est rentré"
+    },
+    "Rentrer16": {
+        "infinitive": "Rentrer",
+        "tense": "passé composé",
+        "pronoun": "Nous",
+        "conjugation": "sommes rentré(e)s"
+    },
+    "Rentrer17": {
+        "infinitive": "Rentrer",
+        "tense": "passé composé",
+        "pronoun": "Vous",
+        "conjugation": "êtes rentré(e)(s)"
+    },
+    "Rentrer18": {
+        "infinitive": "Rentrer",
+        "tense": "passé composé",
+        "pronoun": "Ils",
+        "conjugation": "sont rentré(e)s"
     }
 }
