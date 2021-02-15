@@ -791,5 +791,203 @@
       "Wrong3" : "frequently",
       "Part" : "adverb",
       "Difficulty" : "beginner"
+    },
+    "v89" : {
+      "French" : "la neige",
+      "English" : "the snow",
+      "Wrong1" : "the sand",
+      "Wrong2" : "the ice",
+      "Wrong3" : "the dirt",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v90" : {
+      "French" : "le sable",
+      "English" : "the sand",
+      "Wrong1" : "the snow",
+      "Wrong2" : "the ice",
+      "Wrong3" : "the dirt",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v91" : {
+      "French" : "l'arbre",
+      "English" : "the tree",
+      "Wrong1" : "the rock",
+      "Wrong2" : "the bush",
+      "Wrong3" : "the air",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v92" : {
+      "French" : "dorée",
+      "English" : "golden",
+      "Wrong1" : "durable",
+      "Wrong2" : "adorned",
+      "Wrong3" : "damaged",
+      "Part" : "adjective",
+      "Difficulty" : "advanced"
+    },
+    "v93" : {
+      "French" : "la couronne",
+      "English" : "the crown",
+      "Wrong1" : "the calculator",
+      "Wrong2" : "the castle",
+      "Wrong3" : "the cup",
+      "Part" : "noun",
+      "Difficulty" : "advanced"
+    },
+    "v94" : {
+      "French" : "le nid",
+      "English" : "the nest",
+      "Wrong1" : "the ground",
+      "Wrong2" : "the table",
+      "Wrong3" : "the notebook",
+      "Part" : "noun",
+      "Difficulty" : "advanced"
+    },
+    "v95" : {
+      "French" : "le gênet",
+      "English" : "the broom",
+      "Wrong1" : "the stove",
+      "Wrong2" : "the speaker",
+      "Wrong3" : "the gavel",
+      "Part" : "noun",
+      "Difficulty" : "advanced"
+    },
+    "v96" : {
+      "French" : "le chiffon",
+      "English" : "the rag",
+      "Wrong1" : "the chair",
+      "Wrong2" : "the chip",
+      "Wrong3" : "the gavel",
+      "Part" : "noun",
+      "Difficulty" : "advanced"
+    },
+    "v97" : {
+      "French" : "l'étang",
+      "English" : "the pond",
+      "Wrong1" : "the land",
+      "Wrong2" : "the rock",
+      "Wrong3" : "the hill",
+      "Part" : "noun",
+      "Difficulty" : "advanced"
+    },
+    "v98" : {
+      "French" : "le lac",
+      "English" : "the lake",
+      "Wrong1" : "the land",
+      "Wrong2" : "the pond",
+      "Wrong3" : "the hill",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v99" : {
+      "French" : "le moulin",
+      "English" : "the mill",
+      "Wrong1" : "the mound",
+      "Wrong2" : "the moor",
+      "Wrong3" : "the meadow",
+      "Part" : "noun",
+      "Difficulty" : "advanced"
+    },
+    "v100" : {
+      "French" : "le ombre",
+      "English" : "the shadow",
+      "Wrong1" : "the tile",
+      "Wrong2" : "the oval",
+      "Wrong3" : "the case",
+      "Part" : "noun",
+      "Difficulty" : "advanced"
+    },
+    "v101" : {
+      "French" : "la boufée",
+      "English" : "the puff",
+      "Wrong1" : "the buffet",
+      "Wrong2" : "the poster",
+      "Wrong3" : "the hanger",
+      "Part" : "noun",
+      "Difficulty" : "advanced"
+    },
+    "v102" : {
+      "French" : "le bateau",
+      "English" : "the boat",
+      "Wrong1" : "the buffet",
+      "Wrong2" : "the bat",
+      "Wrong3" : "the bar",
+      "Part" : "noun",
+      "Difficulty" : "advanced"
+    },
+    "v103" : {
+      "French" : "le nuage",
+      "English" : "the cloud",
+      "Wrong1" : "the mat",
+      "Wrong2" : "the note",
+      "Wrong3" : "the shelf",
+      "Part" : "noun",
+      "Difficulty" : "advanced"
+    },
+    "v104" : {
+      "French" : "épaisse",
+      "English" : "thick",
+      "Wrong1" : "thin",
+      "Wrong2" : "round",
+      "Wrong3" : "flat",
+      "Part" : "adjective",
+      "Difficulty" : "advanced"
+    },
+    "v105" : {
+      "French" : "évaillé(e)",
+      "English" : "awake",
+      "Wrong1" : "asleep",
+      "Wrong2" : "around",
+      "Wrong3" : "alert",
+      "Part" : "adjective",
+      "Difficulty" : "advanced"
+    },
+    "v106" : {
+      "French" : "fade",
+      "English" : "bland",
+      "Wrong1" : "fake",
+      "Wrong2" : "interesting",
+      "Wrong3" : "wrinkled",
+      "Part" : "adjective",
+      "Difficulty" : "advanced"
+    },
+    "v107" : {
+      "French" : "disparu",
+      "English" : "gone",
+      "Wrong1" : "lit",
+      "Wrong2" : "dirty",
+      "Wrong3" : "cluttered",
+      "Part" : "adjective",
+      "Difficulty" : "advanced"
+    },
+    "v108" : {
+      "French" : "l'espoir",
+      "English" : "hope",
+      "Wrong1" : "sadness",
+      "Wrong2" : "happiness",
+      "Wrong3" : "envy",
+      "Part" : "noun",
+      "Difficulty" : "advanced"
+    },
+    "v109" : {
+      "French" : "la patte",
+      "English" : "the paw",
+      "Wrong1" : "the leg",
+      "Wrong2" : "the hoof",
+      "Wrong3" : "the tail",
+      "Part" : "noun",
+      "Difficulty" : "advanced"
+    },
+    "v110" : {
+      "French" : "la coquille",
+      "English" : "the shell",
+      "Wrong1" : "the cage",
+      "Wrong2" : "the crack",
+      "Wrong3" : "the charger",
+      "Part" : "noun",
+      "Difficulty" : "advanced"
     }
   }

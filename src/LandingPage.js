@@ -71,7 +71,6 @@ function LandingPage() {
                     <MenuItem style={{fontSize: '20px'}} onClick={(e) => {e.preventDefault();window.location.href="/GenderNouns"}}>Gender of Nouns</MenuItem>
                     <MenuItem style={{fontSize: '20px'}} onClick={(e) => {e.preventDefault();window.location.href="/Articles"}}>Articles</MenuItem>
                     <MenuItem style={{fontSize: '20px'}} onClick={(e) => {e.preventDefault();window.location.href="/Verbs"}}>Verbs</MenuItem>
-                    <MenuItem style={{fontSize: '20px'}}>Conjugations</MenuItem>
                     <MenuItem style={{fontSize: '20px'}} onClick={(e) => {e.preventDefault();window.location.href="/About"}}>About</MenuItem>
                 </MenuList>
                 </Paper>
