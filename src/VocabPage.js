@@ -11,7 +11,7 @@ import {makeStyles} from '@material-ui/core/styles';
 import HomeIcon from '@material-ui/icons/Home';
 import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
 
-import vocab from './vocab.json';
+import vocab from './jsons/vocab.json';
 
 import Image from './backgrounds/paris_skyline2.png';
 

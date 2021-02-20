@@ -1,0 +1,62 @@
+{
+    "s1": {
+        "sentence": "Nous avons ___ farine blanche dans l'amoire",
+        "article": "de la",
+        "hint": "think partitive"
+    },
+    "s2": {
+        "sentence": "Nous avons ___ sucre brun dans l'amoire",
+        "article": "du",
+        "hint": "think partitive"
+    },
+    "s3": {
+        "sentence": "Nous avons ___ eau dans l'amoire",
+        "article": "de l'",
+        "hint": "partitive"
+    },
+    "s4": {
+        "sentence": "Nous avons ___ oeufs blanche dans le refrigerateur",
+        "article": "des",
+        "hint": "partitive"
+    },
+    "s5": {
+        "sentence": "Heureusement, il y a ___ bière irlandaise aussi!",
+        "article": "de la",
+        "hint": "partitive" 
+    },
+    "s6": {
+        "sentence": "Nous n'avons pas ___ beurre",
+        "article": "de",
+        "hint": "definite"
+    },
+    "s7": {
+        "sentence": "Tu veux bien aller acheter ___ beurre à l'épicerie",
+        "article": "du",
+        "hint": "partitive"
+    },
+    "s8": {
+        "sentence": "Il faut une tasse ___ farine",
+        "article": "de",
+        "hint": "definite"
+    },
+    "s9": {
+        "sentence": "Il faut juste un pe ___ sucre",
+        "article": "de",
+        "hint": "definite"
+    },
+    "s10": {
+        "sentence": "Il faut 1/3 de tasse ___ eau",
+        "article": "d'",
+        "hint": "definite"
+    },
+    "s11": {
+        "sentence": "Il faut 30 grammes ___ beurre et deux oeufs",
+        "article": "de",
+        "hint": "definite"
+    },
+    "s12": {
+        "sentece": "J'ai moins ___ glace que Pierre",
+        "article": "de",
+        "hint": "definite"
+    }
+}

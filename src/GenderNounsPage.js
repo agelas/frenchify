@@ -11,7 +11,7 @@ import {makeStyles} from '@material-ui/core/styles';
 import HomeIcon from '@material-ui/icons/Home';
 import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
 
-import nouns from './nouns.json';
+import nouns from './jsons/nouns.json';
 
 import Image from './backgrounds/cafe_vence.png';
 

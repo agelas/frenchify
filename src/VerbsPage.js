@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
         left: '40%',
         top: '15%',
         flexDirection: 'column',
-        width: '25vw',
+        width: '30vw',
     },
     form: {
         margin: theme.spacing(2),
@@ -89,6 +89,7 @@ function ComposedTextField() {
 
     const checkSubmission = () => {
         if (userAnswer === correctConjugation) {
+            console.log('correct set true')
             setCorrectFlag(true);
         } else {
             setErrorMode(true);
@@ -112,7 +113,7 @@ function ComposedTextField() {
     useAsyncEffect(async () => {
         
         const data = await loadData();
-        console.log(data);
+        console.log(correctFlag);
 
         let source = pickRandomVerb(data)
         console.log(source)

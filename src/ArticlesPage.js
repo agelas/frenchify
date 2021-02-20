@@ -17,7 +17,7 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 
-import sentences from './articles.json';
+import sentences from './jsons/articles.json';
 
 import Image from './backgrounds/rheine.png';
 
