@@ -13,6 +13,7 @@ import GenderNounsPage from './GenderNounsPage';
 import ArticlesPage from './ArticlesPage';
 import Verbs from './VerbsPage';
 import About from './About';
+import Grammar from './Grammar';
 
 import Image from './backgrounds/PissaroTransfer1.png'; //relative path import, maybe fix idk
 
@@ -71,6 +72,7 @@ function LandingPage() {
                     <MenuItem style={{fontSize: '20px'}} onClick={(e) => {e.preventDefault();window.location.href="/GenderNouns"}}>Gender of Nouns</MenuItem>
                     <MenuItem style={{fontSize: '20px'}} onClick={(e) => {e.preventDefault();window.location.href="/Articles"}}>Articles</MenuItem>
                     <MenuItem style={{fontSize: '20px'}} onClick={(e) => {e.preventDefault();window.location.href="/Verbs"}}>Verbs</MenuItem>
+                    <MenuItem style={{fontSize: '20px'}} onClick={(e) => {e.preventDefault();window.location.href="/Grammar"}}>Grammar</MenuItem>
                     <MenuItem style={{fontSize: '20px'}} onClick={(e) => {e.preventDefault();window.location.href="/About"}}>About</MenuItem>
                 </MenuList>
                 </Paper>
@@ -80,6 +82,7 @@ function LandingPage() {
             <Route path="/GenderNouns" exact component={GenderNounsPage}/>
             <Route path="/Articles" exact component={ArticlesPage}/>
             <Route path="/Verbs" exact component={Verbs}/>
+            <Route path="/Grammar" exact component={Grammar}/>
             <Route path="/About" exact component={About}/>
             </Switch>
             </Router>
