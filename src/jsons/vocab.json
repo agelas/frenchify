@@ -65,7 +65,7 @@
     },
     "v8" : {
       "French" : "amusant",
-      "English" : "amusing",
+      "English" : "funny",
       "Wrong1": "boring",
       "Wrong2": "mean",
       "Wrong3": "old",
@@ -613,7 +613,7 @@
       "Difficulty": "beginner"
     },
     "v69" : {
-      "French" : "un beau-mère",
+      "French" : "une belle-mère",
       "English" : "a stepmother",
       "Wrong1": "a stepdaughter",
       "Wrong2": "a stepbrother",
@@ -676,7 +676,7 @@
       "Difficulty": "beginner"
     },
     "v76" : {
-      "French" : "une petit-fille",
+      "French" : "une petite-fille",
       "English" : "a granddaughter",
       "Wrong1": "a grandson",
       "Wrong2": "a nephew",
@@ -892,7 +892,7 @@
       "Difficulty" : "advanced"
     },
     "v100" : {
-      "French" : "le ombre",
+      "French" : "l'ombre",
       "English" : "the shadow",
       "Wrong1" : "the tile",
       "Wrong2" : "the oval",
@@ -901,7 +901,7 @@
       "Difficulty" : "advanced"
     },
     "v101" : {
-      "French" : "la boufée",
+      "French" : "la bouffée",
       "English" : "the puff",
       "Wrong1" : "the buffet",
       "Wrong2" : "the poster",
@@ -937,7 +937,7 @@
       "Difficulty" : "advanced"
     },
     "v105" : {
-      "French" : "évaillé(e)",
+      "French" : "éveillé(e)",
       "English" : "awake",
       "Wrong1" : "asleep",
       "Wrong2" : "around",
@@ -975,7 +975,7 @@
     "v109" : {
       "French" : "la patte",
       "English" : "the paw",
-      "Wrong1" : "the leg",
+      "Wrong1" : "the talon",
       "Wrong2" : "the hoof",
       "Wrong3" : "the tail",
       "Part" : "noun",

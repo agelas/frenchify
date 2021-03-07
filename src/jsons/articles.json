@@ -1,11 +1,11 @@
 {
     "s1": {
-        "sentence": "Nous avons ___ farine blanche dans l'amoire",
+        "sentence": "Nous avons ___ farine blanche dans l'armoire",
         "article": "de la",
         "hint": "think partitive"
     },
     "s2": {
-        "sentence": "Nous avons ___ sucre brun dans l'amoire",
+        "sentence": "Nous avons ___ sucre brun dans l'armoire",
         "article": "du",
         "hint": "think partitive"
     },
@@ -15,7 +15,7 @@
         "hint": "partitive"
     },
     "s4": {
-        "sentence": "Nous avons ___ oeufs blanche dans le refrigerateur",
+        "sentence": "Nous avons ___ oeufs dans le refrigerateur",
         "article": "des",
         "hint": "partitive"
     },
@@ -40,7 +40,7 @@
         "hint": "definite"
     },
     "s9": {
-        "sentence": "Il faut juste un pe ___ sucre",
+        "sentence": "Il faut juste un peu ___ sucre",
         "article": "de",
         "hint": "definite"
     },

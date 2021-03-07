@@ -143,7 +143,7 @@ function ComposedTextField() {
                 <DialogContent>
                     <DialogContentText id="dialog-content">
                         Enter the correct article that would fill in the blank for the sentence shown. The answer
-                        will either be definite (le, las, l', les), indefinite (un, une, des), or partitive (du, de la, de l').  
+                        will either be definite (le, la, l', les), indefinite (un, une, des), or partitive (du, de la, de l').  
                     </DialogContentText>
                     <DialogActions>
                         <Button onClick = {handleClose} color = "primary">
