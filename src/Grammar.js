@@ -29,6 +29,21 @@ const WhatExplanation = "\"Qu'est-ce que\" means \"what\" when asking about the 
 const WhatExample1 = "Qu'est-ce que tu manges? || What are you eating?";
 const WhatExample2 = "Quel journal lisez-vous? || What/which newspapaer are you reading?"
 
+const MannerAdverbTitle = "Manner Adverbs";
+const MannerAdverbExplanation = "Manner adverbs describe how something is done, in response to the question \"comment?\". Many adverbs end in -ment, and are based on the adjective stem. If the masculine adjective ends in a vowel, than add -ment. If the masculine adjective ends in a consonant, use the feminine form + -ment.";
+const MannerAdverbExample1 = "poli || poliment";
+const MannerAdverbExample2 = "distrait || distraitement";
+
+const QuiQueTitle = "Qui and Que";
+const QuiQueExplanation = "Qui and que (qu') represent the antecedent when a subject or direct object is needed for the verb in a relative clause. Qui represents the subject, que (qu') represents the direct object.";
+const QuiQueExample1 = "C'est un personnage qui distribue des cadeaux || He's a person who leaves gifts.";
+const QuiQueExample2 = "Voici un cadeau qu'on donne rarement || Here's a gift that people rarely give.";
+
+const OuTitle = "Où";
+const OuExplanation = "Où is used to give information about the place or time something occurs in relation to the antecedent.";
+const OuExample1 = "Nous cherons une église où il y a sun service. || We are looking for a church where there is service.";
+const OuExample2 = "Décembre est un mais où il y a beaucoup de fêtes || December is a month when there are lots of holidays.";
+
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
@@ -92,6 +107,12 @@ function Grammar() {
                     <GrammarCard title = {HowLongTitle} explanation = {HowLongExplanation} example1 = {HowLongExample1} example2 = {HowLongExample2}/>
                     <Typography variant = 'h5' style={{height: '5vh'}}/>
                     <GrammarCard title = {WhatTitle} explanation = {WhatExplanation} example1 = {WhatExample1} example2 = {WhatExample2}/>
+                    <Typography variant = 'h5' style={{height: '5vh'}}/>
+                    <GrammarCard title = {MannerAdverbTitle} explanation = {MannerAdverbExplanation} example1 = {MannerAdverbExample1} example2 = {MannerAdverbExample2}/>
+                    <Typography variant = 'h5' style={{height: '5vh'}}/>
+                    <GrammarCard title = {QuiQueTitle} explanation = {QuiQueExplanation} example1 = {QuiQueExample1} example2 = {QuiQueExample2}/>
+                    <Typography variant = 'h5' style={{height: '5vh'}}/>
+                    <GrammarCard title = {OuTitle} explanation = {OuExplanation} example1 = {OuExample1} example2 = {OuExample2}/>
                     <Typography variant = 'h5' style={{height: '5vh'}}/>
                 </GridList>
 
