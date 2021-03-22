@@ -44,6 +44,11 @@ const OuExplanation = "Où is used to give information about the place or time s
 const OuExample1 = "Nous cherons une église où il y a sun service. || We are looking for a church where there is service.";
 const OuExample2 = "Décembre est un mais où il y a beaucoup de fêtes || December is a month when there are lots of holidays.";
 
+const PronominalAgreementExceptionTitle = "Past Participle Pronominal Agreement Exception";
+const PronominalAgreementExceptionExplanation = "There's a rather nasty exception to the rule that the past participle of a verb agrees in gender/number with the subject. No agreement is made on the past participle of a pronominal verb when a direct object follows the verb AND the indirect object is the pronoun 'se'. This usually happens with daily routine verbs (se laver) and accident verbs (se casser, se couper).";
+const PronominalAgreementExceptionExample1 = "Elle s'est lavé la figure. || She washed her face. (direct object = her face)";
+const PronominalAgreementExceptionExample2 = "Elles se sont lavé les cheveux. || They washed their hair.";
+
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
@@ -113,6 +118,8 @@ function Grammar() {
                     <GrammarCard title = {QuiQueTitle} explanation = {QuiQueExplanation} example1 = {QuiQueExample1} example2 = {QuiQueExample2}/>
                     <Typography variant = 'h5' style={{height: '5vh'}}/>
                     <GrammarCard title = {OuTitle} explanation = {OuExplanation} example1 = {OuExample1} example2 = {OuExample2}/>
+                    <Typography variant = 'h5' style={{height: '5vh'}}/>
+                    <GrammarCard title = {PronominalAgreementExceptionTitle} explanation = {PronominalAgreementExceptionExplanation} example1 = {PronominalAgreementExceptionExample1} example2 = {PronominalAgreementExceptionExample2}/>
                     <Typography variant = 'h5' style={{height: '5vh'}}/>
                 </GridList>
 

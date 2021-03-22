@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
         backgroundPosition:'center center'
     },
     paper: {
-        maxWidth: 400,
+        maxWidth: 500,
         margin: `${theme.spacing(10)}px auto`,
         padding: theme.spacing(8),
         justify: 'center',
