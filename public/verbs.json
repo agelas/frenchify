@@ -107,114 +107,6 @@
         "pronoun": "Ils",
         "conjugation": "ont bu"
     },
-    "avoir1": {
-        "infinitive": "Avoir",
-        "tense": "présent",
-        "pronoun": "J'",
-        "conjugation": "ai"
-    },
-    "avoir2": {
-        "infinitive": "Avoir",
-        "tense": "présent",
-        "pronoun": "Tu",
-        "conjugation": "as"
-    },
-    "avoir3": {
-        "infinitive": "Avoir",
-        "tense": "présent",
-        "pronoun": "Il",
-        "conjugation": "a"
-    },
-    "avoir4": {
-        "infinitive": "Avoir",
-        "tense": "présent",
-        "pronoun": "Nous",
-        "conjugation": "avons"
-    },
-    "avoir5": {
-        "infinitive": "Avoir",
-        "tense": "présent",
-        "pronoun": "Vous",
-        "conjugation": "avez"
-    },
-    "avoir6": {
-        "infinitive": "Avoir",
-        "tense": "présent",
-        "pronoun": "Ils",
-        "conjugation": "ont"
-    },
-    "avoir7": {
-        "infinitive": "Avoir",
-        "tense": "imparfait",
-        "pronoun": "J'",
-        "conjugation": "avais"
-    },
-    "avoir8": {
-        "infinitive": "Avoir",
-        "tense": "imparfait",
-        "pronoun": "Tu",
-        "conjugation": "avais"
-    },
-    "avoir9": {
-        "infinitive": "Avoir",
-        "tense": "imparfait",
-        "pronoun": "Il",
-        "conjugation": "avait"
-    },
-    "avoir10": {
-        "infinitive": "Avoir",
-        "tense": "imparfait",
-        "pronoun": "Nous",
-        "conjugation": "avions"
-    },
-    "avoir11": {
-        "infinitive": "Avoir",
-        "tense": "imparfait",
-        "pronoun": "Vous",
-        "conjugation": "aviez"
-    },
-    "avoir12": {
-        "infinitive": "Avoir",
-        "tense": "imparfait",
-        "pronoun": "Ils",
-        "conjugation": "avaient"
-    },
-    "avoir13": {
-        "infinitive": "Avoir",
-        "tense": "passé composé",
-        "pronoun": "J'",
-        "conjugation": "ai eu"
-    },
-    "avoir14": {
-        "infinitive": "Avoir",
-        "tense": "passé composé",
-        "pronoun": "Tu",
-        "conjugation": "as eu"
-    },
-    "avoir15": {
-        "infinitive": "Avoir",
-        "tense": "passé composé",
-        "pronoun": "Il",
-        "conjugation": "a eu"
-    },
-    "avoir16": {
-        "infinitive": "Avoir",
-        "tense": "passé composé",
-        "pronoun": "Nous",
-        "conjugation": "avons eu"
-    },
-    "avoir17": {
-        "infinitive": "Avoir",
-        "tense": "passé composé",
-        "pronoun": "Vous",
-        "conjugation": "avez eu"
-    },
-    "avoir18": {
-        "infinitive": "Avoir",
-        "tense": "passé composé",
-        "pronoun": "Ils",
-        "conjugation": "ont eu"
-    },
     "Prendre1": {
         "infinitive": "Prendre",
         "tense": "présent",
@@ -754,5 +646,113 @@
         "tense": "passé composé",
         "pronoun": "Ils",
         "conjugation": "sont rentré(e)s"
+    },
+    "offrir1": {
+        "infinitive": "offrir",
+        "tense": "présent",
+        "pronoun": "J'",
+        "conjugation": "offre"
+    },
+    "offrir2": {
+        "infinitive": "offrir",
+        "tense": "présent",
+        "pronoun": "Tu",
+        "conjugation": "offres"
+    },
+    "offrir3": {
+        "infinitive": "offrir",
+        "tense": "présent",
+        "pronoun": "Il",
+        "conjugation": "offre"
+    },
+    "offrir4": {
+        "infinitive": "offrir",
+        "tense": "présent",
+        "pronoun": "Nous",
+        "conjugation": "offrons"
+    },
+    "offrir5": {
+        "infinitive": "offrir",
+        "tense": "présent",
+        "pronoun": "Vous",
+        "conjugation": "offrez"
+    },
+    "offrir6": {
+        "infinitive": "offrir",
+        "tense": "présent",
+        "pronoun": "Ils",
+        "conjugation": "offrent"
+    },
+    "offrir7": {
+        "infinitive": "offrir",
+        "tense": "imparfait",
+        "pronoun": "J'",
+        "conjugation": "offrais"
+    },
+    "offrir8": {
+        "infinitive": "offrir",
+        "tense": "imparfait",
+        "pronoun": "Tu",
+        "conjugation": "offrais"
+    },
+    "offrir9": {
+        "infinitive": "offrir",
+        "tense": "imparfait",
+        "pronoun": "Il",
+        "conjugation": "offrait"
+    },
+    "offrir10": {
+        "infinitive": "offrir",
+        "tense": "imparfait",
+        "pronoun": "Nous",
+        "conjugation": "offrions"
+    },
+    "offrir11": {
+        "infinitive": "offrir",
+        "tense": "imparfait",
+        "pronoun": "Vous",
+        "conjugation": "offriez"
+    },
+    "offrir12": {
+        "infinitive": "offrir",
+        "tense": "imparfait",
+        "pronoun": "Ils",
+        "conjugation": "offraient"
+    },
+    "offrir13": {
+        "infinitive": "offrir",
+        "tense": "passé composé",
+        "pronoun": "J'",
+        "conjugation": "ai offert"
+    },
+    "offrir14": {
+        "infinitive": "offrir",
+        "tense": "passé composé",
+        "pronoun": "Tu",
+        "conjugation": "as offert"
+    },
+    "offrir15": {
+        "infinitive": "offrir",
+        "tense": "passé composé",
+        "pronoun": "Il",
+        "conjugation": "a offert"
+    },
+    "offrir16": {
+        "infinitive": "offrir",
+        "tense": "passé composé",
+        "pronoun": "Nous",
+        "conjugation": "avons offert"
+    },
+    "offrir17": {
+        "infinitive": "offrir",
+        "tense": "passé composé",
+        "pronoun": "Vous",
+        "conjugation": "avez offert"
+    },
+    "offrir18": {
+        "infinitive": "offrir",
+        "tense": "passé composé",
+        "pronoun": "Ils",
+        "conjugation": "ont offert"
     }
 }
