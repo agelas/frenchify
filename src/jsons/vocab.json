@@ -989,5 +989,410 @@
       "Wrong3" : "the charger",
       "Part" : "noun",
       "Difficulty" : "advanced"
+    },
+    "v111" : {
+      "French" : "l'ascenseur",
+      "English" : "the elevator",
+      "Wrong1" : "the ascension",
+      "Wrong2" : "the balcony",
+      "Wrong3" : "the hallway",
+      "Part" : "noun",
+      "Difficulty" : "advanced"
+    },
+    "v112" : {
+      "French" : "la baignoire",
+      "English" : "the bathtub",
+      "Wrong1" : "the bidet",
+      "Wrong2" : "the balcony",
+      "Wrong3" : "the bathroom",
+      "Part" : "noun",
+      "Difficulty" : "advanced"
+    },
+    "v113" : {
+      "French" : "le couloir",
+      "English" : "the hallway",
+      "Wrong1" : "the cage",
+      "Wrong2" : "the column",
+      "Wrong3" : "the couch",
+      "Part" : "noun",
+      "Difficulty" : "advanced"
+    },
+    "v114" : {
+      "French" : "une armoire",
+      "English" : "a wardrobe",
+      "Wrong1" : "a dresser",
+      "Wrong2" : "a shelf",
+      "Wrong3" : "an armchair",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v115" : {
+      "French" : "un canapé",
+      "English" : "a couch",
+      "Wrong1" : "a dresser",
+      "Wrong2" : "a shelf",
+      "Wrong3" : "an armchair",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v116" : {
+      "French" : "une commode",
+      "English" : "a dresser",
+      "Wrong1" : "a couch",
+      "Wrong2" : "a shelf",
+      "Wrong3" : "an armchair",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v117" : {
+      "French" : "une étagère",
+      "English" : "a shelf",
+      "Wrong1" : "a dresser",
+      "Wrong2" : "a bed",
+      "Wrong3" : "an armchair",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v118" : {
+      "French" : "un fauteuil",
+      "English" : "an armchair",
+      "Wrong1" : "a dresser",
+      "Wrong2" : "a bed",
+      "Wrong3" : "a couch",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v119" : {
+      "French" : "un lit",
+      "English" : "a bed",
+      "Wrong1" : "a dresser",
+      "Wrong2" : "a couch",
+      "Wrong3" : "an armchair",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v120" : {
+      "French" : "un balai",
+      "English" : "a broom",
+      "Wrong1" : "a frame",
+      "Wrong2" : "a lamp",
+      "Wrong3" : "a mirror",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v121" : {
+      "French" : "un cadre",
+      "English" : "a frame",
+      "Wrong1" : "a broom",
+      "Wrong2" : "a lamp",
+      "Wrong3" : "a mirror",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v122" : {
+      "French" : "des rideaux",
+      "English" : "curtains",
+      "Wrong1" : "rugs",
+      "Wrong2" : "lamps",
+      "Wrong3" : "chairs",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v123" : {
+      "French" : "un tapis",
+      "English" : "a rug",
+      "Wrong1" : "a frame",
+      "Wrong2" : "a lamp",
+      "Wrong3" : "a mirror",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v124" : {
+      "French" : "une bougie",
+      "English" : "a candle",
+      "Wrong1" : "a bouquet",
+      "Wrong2" : "a gift",
+      "Wrong3" : "a bag",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v125" : {
+      "French" : "un cadeau",
+      "English" : "a gift",
+      "Wrong1" : "a bouquet",
+      "Wrong2" : "a candle",
+      "Wrong3" : "a bag",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v126" : {
+      "French" : "un bouquet",
+      "English" : "a bouquet",
+      "Wrong1" : "a candle",
+      "Wrong2" : "a gift",
+      "Wrong3" : "a bag",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v127" : {
+      "French" : "un défilé",
+      "English" : "a parade",
+      "Wrong1" : "a costume",
+      "Wrong2" : "a gift",
+      "Wrong3" : "a joke",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v128" : {
+      "French" : "un déguisement",
+      "English" : "a costume",
+      "Wrong1" : "a card",
+      "Wrong2" : "a gift",
+      "Wrong3" : "a joke",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v129" : {
+      "French" : "une farce",
+      "English" : "a joke",
+      "Wrong1" : "a costume",
+      "Wrong2" : "a gift",
+      "Wrong3" : "a candle",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v130" : {
+      "French" : "couramment",
+      "English" : "fluently",
+      "Wrong1" : "slowly",
+      "Wrong2" : "prudently",
+      "Wrong3" : "recently",
+      "Part" : "adverb",
+      "Difficulty" : "beginner"
+    },
+    "v131" : {
+      "French" : "partout",
+      "English" : "everywhere",
+      "Wrong1" : "slowly",
+      "Wrong2" : "prudently",
+      "Wrong3" : "carefully",
+      "Part" : "adverb",
+      "Difficulty" : "beginner"
+    },
+    "v132" : {
+      "French" : "quelquefois",
+      "English" : "sometimes",
+      "Wrong1" : "oftentimes",
+      "Wrong2" : "truly",
+      "Wrong3" : "enormously",
+      "Part" : "adverb",
+      "Difficulty" : "beginner"
+    },
+    "v133" : {
+      "French" : "soigneusement",
+      "English" : "carefully",
+      "Wrong1" : "slowly",
+      "Wrong2" : "prudently",
+      "Wrong3" : "recently",
+      "Part" : "adverb",
+      "Difficulty" : "beginner"
+    },
+    "v134" : {
+      "French" : "la bouche",
+      "English" : "mouth",
+      "Wrong1" : "arm",
+      "Wrong2" : "ankle",
+      "Wrong3" : "neck",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v135" : {
+      "French" : "le bras",
+      "English" : "arm",
+      "Wrong1" : "mouth",
+      "Wrong2" : "ankle",
+      "Wrong3" : "neck",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v136" : {
+      "French" : "la cheville",
+      "English" : "ankle",
+      "Wrong1" : "arm",
+      "Wrong2" : "mouth",
+      "Wrong3" : "neck",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v137" : {
+      "French" : "le cou",
+      "English" : "neck",
+      "Wrong1" : "arm",
+      "Wrong2" : "ankle",
+      "Wrong3" : "mouth",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v138" : {
+      "French" : "le coude",
+      "English" : "elbow",
+      "Wrong1" : "tooth",
+      "Wrong2" : "arm",
+      "Wrong3" : "neck",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v139" : {
+      "French" : "la dent",
+      "English" : "tooth",
+      "Wrong1" : "arm",
+      "Wrong2" : "finger",
+      "Wrong3" : "mouth",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v140" : {
+      "French" : "le doigt",
+      "English" : "finger",
+      "Wrong1" : "arm",
+      "Wrong2" : "elbow",
+      "Wrong3" : "tooth",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v141" : {
+      "French" : "l'épaule",
+      "English" : "shoulder",
+      "Wrong1" : "finger",
+      "Wrong2" : "mouth",
+      "Wrong3" : "neck",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v142" : {
+      "French" : "la visage",
+      "English" : "face",
+      "Wrong1" : "shoulder",
+      "Wrong2" : "mouth",
+      "Wrong3" : "neck",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v143" : {
+      "French" : "le front",
+      "English" : "forehead",
+      "Wrong1" : "shoulder",
+      "Wrong2" : "mouth",
+      "Wrong3" : "ankle",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v144" : {
+      "French" : "le genou",
+      "English" : "knee",
+      "Wrong1" : "finger",
+      "Wrong2" : "ankle",
+      "Wrong3" : "arm",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v145" : {
+      "French" : "la hanche",
+      "English" : "hip",
+      "Wrong1" : "finger",
+      "Wrong2" : "ankle",
+      "Wrong3" : "hand",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v146" : {
+      "French" : "la jambe",
+      "English" : "leg",
+      "Wrong1" : "cheek",
+      "Wrong2" : "ankle",
+      "Wrong3" : "arm",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v147" : {
+      "French" : "la joue",
+      "English" : "cheek",
+      "Wrong1" : "finger",
+      "Wrong2" : "ankle",
+      "Wrong3" : "mouth",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v148" : {
+      "French" : "la langue",
+      "English" : "tongue",
+      "Wrong1" : "leg",
+      "Wrong2" : "lip",
+      "Wrong3" : "mouth",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v149" : {
+      "French" : "la main",
+      "English" : "hand",
+      "Wrong1" : "finger",
+      "Wrong2" : "ankle",
+      "Wrong3" : "arm",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v150" : {
+      "French" : "le menton",
+      "English" : "chin",
+      "Wrong1" : "ear",
+      "Wrong2" : "ankle",
+      "Wrong3" : "foot",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v151" : {
+      "French" : "le nez",
+      "English" : "nose",
+      "Wrong1" : "finger",
+      "Wrong2" : "ear",
+      "Wrong3" : "arm",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v152" : {
+      "French" : "l'oreille",
+      "English" : "ear",
+      "Wrong1" : "finger",
+      "Wrong2" : "wrist",
+      "Wrong3" : "toe",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v153" : {
+      "French" : "l'orteil",
+      "English" : "toe",
+      "Wrong1" : "finger",
+      "Wrong2" : "ear",
+      "Wrong3" : "arm",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v154" : {
+      "French" : "le poignet",
+      "English" : "wrist",
+      "Wrong1" : "finger",
+      "Wrong2" : "ear",
+      "Wrong3" : "knee",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
+    },
+    "v155" : {
+      "French" : "le poitrine",
+      "English" : "chest",
+      "Wrong1" : "pupil",
+      "Wrong2" : "thumb",
+      "Wrong3" : "arm",
+      "Part" : "noun",
+      "Difficulty" : "beginner"
     }
   }
