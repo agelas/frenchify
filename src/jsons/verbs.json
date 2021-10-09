@@ -107,6 +107,42 @@
         "pronoun": "Ils",
         "conjugation": "ont bu"
     },
+    "boire19": {
+        "infinitive": "boire",
+        "tense": "futur simple",
+        "pronoun": "Je",
+        "conjugation": "boirai"
+    },
+    "boire20": {
+        "infinitive": "boire",
+        "tense": "futur simple",
+        "pronoun": "Tu",
+        "conjugation": "boiras"
+    },
+    "boire21": {
+        "infinitive": "boire",
+        "tense": "futur simple",
+        "pronoun": "Il",
+        "conjugation": "boira"
+    },
+    "boire22": {
+        "infinitive": "boire",
+        "tense": "futur simple",
+        "pronoun": "Nous",
+        "conjugation": "boirons"
+    },
+    "boire23": {
+        "infinitive": "boire",
+        "tense": "futur simple",
+        "pronoun": "Vous",
+        "conjugation": "boirez"
+    },
+    "boire24": {
+        "infinitive": "boire",
+        "tense": "futur simple",
+        "pronoun": "Ils",
+        "conjugation": "boiront"
+    },
     "Prendre1": {
         "infinitive": "Prendre",
         "tense": "présent",
@@ -214,6 +250,42 @@
         "tense": "passé composé",
         "pronoun": "Ils",
         "conjugation": "ont pris"
+    },
+    "Prendre19": {
+        "infinitive": "prendre",
+        "tense": "futur simple",
+        "pronoun": "Je",
+        "conjugation": "prendrai"
+    },
+    "Prendre20": {
+        "infinitive": "prendre",
+        "tense": "futur simple",
+        "pronoun": "Tu",
+        "conjugation": "prendras"
+    },
+    "Prendre21": {
+        "infinitive": "prendre",
+        "tense": "futur simple",
+        "pronoun": "Il",
+        "conjugation": "prendra"
+    },
+    "Prendre22": {
+        "infinitive": "prendre",
+        "tense": "futur simple",
+        "pronoun": "Nous",
+        "conjugation": "prendrons"
+    },
+    "Prendre23": {
+        "infinitive": "prendre",
+        "tense": "futur simple",
+        "pronoun": "Vous",
+        "conjugation": "prendrez"
+    },
+    "Prendre24": {
+        "infinitive": "prendre",
+        "tense": "futur simple",
+        "pronoun": "Ils",
+        "conjugation": "prendront"
     },
     "Avoir1": {
         "infinitive": "Avoir",
@@ -323,6 +395,42 @@
         "pronoun": "Ils",
         "conjugation": "ont eu"
     },
+    "Avoir19": {
+        "infinitive": "Avoir",
+        "tense": "futur simple",
+        "pronoun": "Je",
+        "conjugation": "aurai"
+    },
+    "Avoir20": {
+        "infinitive": "Avoir",
+        "tense": "futur simple",
+        "pronoun": "Tu",
+        "conjugation": "auras"
+    },
+    "Avoir21": {
+        "infinitive": "Avoir",
+        "tense": "futur simple",
+        "pronoun": "Il",
+        "conjugation": "aura"
+    },
+    "Avoir22": {
+        "infinitive": "Avoir",
+        "tense": "futur simple",
+        "pronoun": "Nous",
+        "conjugation": "aurons"
+    },
+    "Avoir23": {
+        "infinitive": "Avoir",
+        "tense": "futur simple",
+        "pronoun": "Vous",
+        "conjugation": "aurez"
+    },
+    "Avoir24": {
+        "infinitive": "Avoir",
+        "tense": "futur simple",
+        "pronoun": "Ils",
+        "conjugation": "auront"
+    },
     "Aller1": {
         "infinitive": "Aller",
         "tense": "présent",
@@ -430,6 +538,42 @@
         "tense": "passé composé",
         "pronoun": "Elles",
         "conjugation": "sont allées"
+    },
+    "Aller19": {
+        "infinitive": "Aller",
+        "tense": "futur simple",
+        "pronoun": "Je",
+        "conjugation": "irai"
+    },
+    "Aller20": {
+        "infinitive": "Aller",
+        "tense": "futur simple",
+        "pronoun": "Tu",
+        "conjugation": "iras"
+    },
+    "Aller21": {
+        "infinitive": "Aller",
+        "tense": "futur simple",
+        "pronoun": "Il",
+        "conjugation": "ira"
+    },
+    "Aller22": {
+        "infinitive": "Aller",
+        "tense": "futur simple",
+        "pronoun": "Nous",
+        "conjugation": "irons"
+    },
+    "Aller23": {
+        "infinitive": "Aller",
+        "tense": "futur simple",
+        "pronoun": "Vous",
+        "conjugation": "irez"
+    },
+    "Aller24": {
+        "infinitive": "Aller",
+        "tense": "futur simple",
+        "pronoun": "Ils",
+        "conjugation": "iront"
     },
     "Venir1": {
         "infinitive": "Venir",
@@ -539,6 +683,42 @@
         "pronoun": "Ils",
         "conjugation": "sont venus"
     },
+    "Venir19": {
+        "infinitive": "Venir",
+        "tense": "futur simple",
+        "pronoun": "Je",
+        "conjugation": "viendrai"
+    },
+    "Venir20": {
+        "infinitive": "Venir",
+        "tense": "futur simple",
+        "pronoun": "Tu",
+        "conjugation": "viendras"
+    },
+    "Venir21": {
+        "infinitive": "Venir",
+        "tense": "futur simple",
+        "pronoun": "Il",
+        "conjugation": "viendra"
+    },
+    "Venir22": {
+        "infinitive": "Venir",
+        "tense": "futur simple",
+        "pronoun": "Nous",
+        "conjugation": "viendrons"
+    },
+    "Venir23": {
+        "infinitive": "Venir",
+        "tense": "futur simple",
+        "pronoun": "Vous",
+        "conjugation": "viendrez"
+    },
+    "Venir24": {
+        "infinitive": "Venir",
+        "tense": "futur simple",
+        "pronoun": "Ils",
+        "conjugation": "viendront"
+    },
     "Rentrer1": {
         "infinitive": "Rentrer",
         "tense": "présent",
@@ -647,6 +827,42 @@
         "pronoun": "Ils",
         "conjugation": "sont rentré(e)s"
     },
+    "Rentrer19": {
+        "infinitive": "Rentrer",
+        "tense": "futur simple",
+        "pronoun": "Je",
+        "conjugation": "rentrerai"
+    },
+    "Rentrer20": {
+        "infinitive": "Rentrer",
+        "tense": "futur simple",
+        "pronoun": "Tu",
+        "conjugation": "rentreras"
+    },
+    "Rentrer21": {
+        "infinitive": "Rentrer",
+        "tense": "futur simple",
+        "pronoun": "Il",
+        "conjugation": "rentrera"
+    },
+    "Rentrer22": {
+        "infinitive": "Rentrer",
+        "tense": "futur simple",
+        "pronoun": "Nous",
+        "conjugation": "rentrerons"
+    },
+    "Rentrer23": {
+        "infinitive": "Rentrer",
+        "tense": "futur simple",
+        "pronoun": "Vous",
+        "conjugation": "rentrerez"
+    },
+    "Rentrer24": {
+        "infinitive": "Rentrer",
+        "tense": "futur simple",
+        "pronoun": "Ils",
+        "conjugation": "rentreront"
+    },
     "offrir1": {
         "infinitive": "offrir",
         "tense": "présent",
@@ -754,5 +970,41 @@
         "tense": "passé composé",
         "pronoun": "Ils",
         "conjugation": "ont offert"
+    },
+    "Offrir19": {
+        "infinitive": "Offrir",
+        "tense": "futur simple",
+        "pronoun": "Je",
+        "conjugation": "offrirai"
+    },
+    "Offrir20": {
+        "infinitive": "Offrir",
+        "tense": "futur simple",
+        "pronoun": "Tu",
+        "conjugation": "offriras"
+    },
+    "Offrir21": {
+        "infinitive": "Offrir",
+        "tense": "futur simple",
+        "pronoun": "Il",
+        "conjugation": "offrira"
+    },
+    "Offrir22": {
+        "infinitive": "Offrir",
+        "tense": "futur simple",
+        "pronoun": "Nous",
+        "conjugation": "offrions"
+    },
+    "Offrir23": {
+        "infinitive": "Offrir",
+        "tense": "futur simple",
+        "pronoun": "Vous",
+        "conjugation": "offrirez"
+    },
+    "Offrir24": {
+        "infinitive": "Offrir",
+        "tense": "futur simple",
+        "pronoun": "Ils",
+        "conjugation": "offriront"
     }
 }

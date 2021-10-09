@@ -1,5 +1,4 @@
-import React from 'react';
-import {useAsyncEffect} from 'use-async-effect';
+import React, {useLayoutEffect} from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
@@ -17,6 +16,8 @@ import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
+
+import verbs from './jsons/verbs.json';
 
 import Image from './backgrounds/Strasbourg.png';
 
@@ -64,6 +65,12 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
+const pickRandomVerb = () => {
+    var obj_keys = Object.keys(verbs);
+    var ran_key = obj_keys[Math.floor(Math.random() * obj_keys.length)];
+    return verbs[ran_key]
+}
+
 function ComposedTextField() {
 
     const classes = useStyles();
@@ -76,12 +83,6 @@ function ComposedTextField() {
     const [errorMode, setErrorMode] = React.useState(false);
     const [correctFlag, setCorrectFlag] = React.useState(false);
     const [open, setOpen] = React.useState(false);
-
-    const pickRandomVerb = (list) => {
-        var obj_keys = Object.keys(list);
-        var ran_key = obj_keys[Math.floor(Math.random() * obj_keys.length)];
-        return list[ran_key];
-    }
 
     const handleChange = (event) => {
         setUserAnswer(event.target.value);
@@ -96,12 +97,6 @@ function ComposedTextField() {
         }
     }
 
-    const loadData = async() => {
-        const response = await fetch('verbs.json');
-        const json = await response.json();
-        return json;
-    }
-
     const handleClickOpen = () => {
         setOpen(true);
     };
@@ -110,12 +105,9 @@ function ComposedTextField() {
         setOpen(false);
     }
 
-    useAsyncEffect(async () => {
-        
-        const data = await loadData();
-        console.log(correctFlag);
+    useLayoutEffect(() => {
 
-        let source = pickRandomVerb(data)
+        let source = pickRandomVerb()
         console.log(source)
 
         let verbSource = source.infinitive;
