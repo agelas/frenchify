@@ -53,34 +53,32 @@ const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
         overflow: 'hidden',
-        spacing: 10,
+        spacing: 5,
         backgroundImage: `url(${Image})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover', //this should force it to resize the background image to cover entire container
         backgroundPosition:'center center',
         display: 'flex',
-        justify: 'center',
-        align: 'center',
+        justifyContent: 'center',
         flexDirection: 'column',
-        padding: '50px'
+        padding: '50px',
+        width: '100%'
     },
-    button: {
-        margin: theme.spacing(1),
-    },
-    paper: {
-        maxWidth: '80vh',
-        maxHeight: '50vh',
+    centered: {
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        width: '80vh',
         display: 'flex',
-        justify: 'center',
-        align: 'center',
-        flexDirection: 'column'
+        justifyContent: 'center',
+        flexDirection: 'column',
+        margin: '50px',
     },
     gridList: {
-        width: "80vh",
+        width: "84vh",
         height: "60vh",
         justify: 'center',
-        align: 'center',
         display: 'flex',
+        padding: '5px'
     }
 
 }));
@@ -91,20 +89,20 @@ function Grammar() {
 
     return(
         <div className = {classes.root}>
-            
-            <Grid container spacing = {3} direction = "column" display = "flex" alignItems = "center" height = "80vh"> 
+            <div className = {classes.centered}>
+            <Grid container spacing = {3} direction = "row" display = "flex" alignItems = "center" height = "80vh"> 
                 {/*Ok so alignItems did the trick since vertical is the main axis*/}
-                <Grid item xs={8} zeroMinWidth display = "flex" alignContent = "center" alignItems = "center" justify = "center">
-                    <Typography variant = 'h5' style={{ backgroundColor: '#ffffff', height: '5vh', padding: '5px'}}>
+                <Grid container item display = "flex" alignContent = "center" alignItems = "center" justify = "center" style={{width: '90vh', backgroundColor: '#ffffff', margin: '5px'}}>
+                    <Typography variant = 'h5' height= '5vh' padding= '5px'>
                         Grammar
                     </Typography>
-                    <Typography gutterBottom = "true" style={{ backgroundColor: '#ffffff', height: '10vh', width: '80vh', padding: '5px'}}>
+                    <Typography gutterBottom = "true" style={{ backgroundColor: '#ffffff', height: '10vh', width: 'auto', padding: '5px'}}>
                         Here you will find an assortment of various grammatical rules and constructions that I find interesting and useful. There
                         are simply too many rules, exceptions, and nuances to cover, but a good collection can be found here.
                     </Typography>
                 </Grid>
                 
-                <GridList cellHeight = {100} cols = {1} spacing = {8} padding = '5px' className = {classes.gridList}>
+                <GridList cellHeight = {100} cols = {1} spacing = {8} className = {classes.gridList}>
                     <GrammarCard title = {RecentPastTitle} explanation = {RecentPastExplanation} example1 = {RecentPastExamples1} example2 = {RecentPastExamples2}/>
                     <Typography variant = 'h5' style={{height: '5vh'}}/>
                     <GrammarCard title = {FutureProcheTitle} explanation = {FutureProcheExplanation} example1 = {FutureProcheExample1} example2 = {FutureProcheExample2}/>
@@ -123,10 +121,11 @@ function Grammar() {
                     <Typography variant = 'h5' style={{height: '5vh'}}/>
                 </GridList>
 
-                <Grid item xs={8} zeroMidWidth display = "flex" alignContent = "center" alignItems = "center" justify = "center">
+                <Grid item display = "flex" align="center" style={{width: '90vh', justifyContent: 'center'}}>
                         <Button
                             variant="contained"
                             color="primary"
+                            display = "flex"
                             className={classes.button}
                             startIcon={<HomeIcon/>}
                             onClick = {(e) =>{
@@ -139,6 +138,7 @@ function Grammar() {
                 </Grid>
                     
             </Grid>
+            </div>
             
             
         </div>
