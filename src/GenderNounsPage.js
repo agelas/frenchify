@@ -1,4 +1,4 @@
-import React, {useLayoutEffect} from 'react';
+import React, {useLayoutEffect, useCallback} from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
 import InputLabel from '@material-ui/core/InputLabel';
@@ -111,13 +111,13 @@ function ControlledOpenSelect() {
         setOpen(true);
     };
 
-    useLayoutEffect(() => {
+    const fetchData = useCallback(async () => {
+        const response = await fetch('/api/nretrieval')
+        const data = await response.json() 
+        setData(data)
+    }, [])
 
-        const fetchData = async () => {
-            const response = await fetch('/api/nretrieval')
-            const data = await response.json() 
-            setData(data)
-        }
+    useLayoutEffect(() => {
 
         let source; 
 
@@ -132,7 +132,12 @@ function ControlledOpenSelect() {
 
         //faunaData is an array???
         //console.log(faunaData["0"]["data"].noun)
-        source = happyPath(faunaData)
+        try{
+            source = happyPath(faunaData)
+        } catch(err) {
+            console.log("Problemo")
+            source = pickRandomVocab();
+        }
 
         //Grab the field which holds the word in French
         let wordSource = source[0];
