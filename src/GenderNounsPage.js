@@ -62,12 +62,22 @@ const useStyles = makeStyles((theme) => ({
 const pickRandomVocab = () => {
     var obj_keys = Object.keys(nouns);
     var ran_key = obj_keys[Math.floor(Math.random() * obj_keys.length)];
-    return nouns[ran_key];
+    return [nouns[ran_key]["noun"], nouns[ran_key]["article"]];
+}
+
+const happyPath = (argument) => {
+    //console.log(argument.length)
+    //console.dir(argument)
+    var ran_key = Math.floor(Math.random() * argument.length);
+    //console.log(ran_key)
+    //console.log(argument["0"]["data"].noun)
+    return [argument[ran_key.toString()]["data"].noun, argument[ran_key.toString()]["data"].article];
 }
 
 function ControlledOpenSelect() {
 
     const classes = useStyles();
+    const [faunaData, setData] = React.useState()
     const [displayFrench, setDisplayFrench] = React.useState('');
     const [pick, setPick] = React.useState('');
     const [correct, setCorrect] = React.useState('');
@@ -102,18 +112,37 @@ function ControlledOpenSelect() {
     };
 
     useLayoutEffect(() => {
-        //Grab the noun object
-       let source = pickRandomVocab();
 
-       //Grab the field which holds the word in French
-       let wordSource = source.noun;
+        const fetchData = async () => {
+            const response = await fetch('/api/nretrieval')
+            const data = await response.json() 
+            setData(data)
+        }
+
+        let source; 
+
+        fetchData()
+
+        if (faunaData === '') {
+            console.log("Problem Connecting to FaunaDB")
+            console.log(console.error)
+            source = pickRandomVocab();
+        }
+        console.log(faunaData)
+
+        //faunaData is an array???
+        //console.log(faunaData["0"]["data"].noun)
+        source = happyPath(faunaData)
+
+        //Grab the field which holds the word in French
+        let wordSource = source[0];
 
        //Reset the correctPick flag on rerender so we can actually alternate through
        //more than one word
        correctFlag(false);
 
        //Grab all the fields for the correct and incorrect translations
-       let correct = source.article;
+       let correct = source[1];
        //let wrong1 = source.Wrong1;
 
        //Get rid of quotation marks
