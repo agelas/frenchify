@@ -1,4 +1,4 @@
-import React, {useLayoutEffect, useCallback} from 'react';
+import React, {useLayoutEffect, useEffect} from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
 import InputLabel from '@material-ui/core/InputLabel';
@@ -74,15 +74,16 @@ const happyPath = (argument) => {
     return [argument[ran_key.toString()]["data"].noun, argument[ran_key.toString()]["data"].article];
 }
 
-function ControlledOpenSelect() {
+function ControlledOpenSelect(props) {
 
     const classes = useStyles();
-    const [faunaData, setData] = React.useState()
+    //const [faunaData, setData] = React.useState()
     const [displayFrench, setDisplayFrench] = React.useState('');
     const [pick, setPick] = React.useState('');
     const [correct, setCorrect] = React.useState('');
     const [correctPick, correctFlag] = React.useState(false);
     const [open, setOpen] = React.useState(false);
+    //const faunaData = useRef(props.faunaResponse)
 
 
     //For filling in user-selection
@@ -111,29 +112,20 @@ function ControlledOpenSelect() {
         setOpen(true);
     };
 
+    /*
     const fetchData = useCallback(async () => {
         const response = await fetch('/api/nretrieval')
         const data = await response.json() 
         setData(data)
-    }, [])
+    }, []) 
+    */
 
     useLayoutEffect(() => {
-
-        let source; 
-
-        fetchData()
-
-        if (faunaData === '') {
-            console.log("Problem Connecting to FaunaDB")
-            console.log(console.error)
-            source = pickRandomVocab();
-        }
-        console.log(faunaData)
-
+        let source
         //faunaData is an array???
         //console.log(faunaData["0"]["data"].noun)
         try{
-            source = happyPath(faunaData)
+            source = happyPath(props.faunaData)
         } catch(err) {
             console.log("Problemo")
             source = pickRandomVocab();
@@ -197,13 +189,32 @@ function ControlledOpenSelect() {
 function GenderNounsPage() {
 
     const classes = useStyles();
+    const [faunaResponse, setData] = React.useState()
+
+    /*const fetchData = useCallback(async () => {
+        const response = await fetch('/api/nretrieval')
+        const data = await response.json() 
+        setData(data)
+    }, [])*/
+
+    useEffect(() => {
+
+        const fetchData = async () => {
+            const response = await fetch('/api/nretrieval')
+            const data = await response.json() 
+            setData(data)
+        }
+        fetchData()
+
+        console.log(faunaResponse)
+    }, [])
 
     return(
 
         <Grid container component = "main" className = {classes.root}>
             <CssBaseline/>
             <Grid className = {classes.centerPane}>
-                <ControlledOpenSelect/>
+                <ControlledOpenSelect faunaData = {faunaResponse}/>
                 <div align = 'center'>
                     <Button
                         variant="contained"
