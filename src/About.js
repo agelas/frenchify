@@ -46,7 +46,7 @@ function About() {
     conjugations in the present tense.`
 
     const aboutBackgrounds = `The background images were created using a machine learning technique called neural style transfer, outlined in 
-    Leon Gatys et al.'s paper: "A Nerual Algorithm of Artistic Style". The basic idea revolves around using a content image and a style image
+    Leon Gatys et al.'s paper: "A Neural Algorithm of Artistic Style". The basic idea revolves around using a content image and a style image
     to produce a third image, which is the content image rendered in the same vein as the style image. For example, if you take 
     a picture of Marseille (content image) and a picture painted by an impressionist painter like Pissarro (style image), you might end up with the current background image. I've
     provided links to Gatys et al.'s paper, the implementation of neural style transfer I used (VGG 19), and my own version of VGG19. My version has very small tweaks that
