@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
         height: '100vh',
         flexGrow: 1,
         justify: 'center',
+        align: 'center',
         backgroundImage: `url(${Image})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
@@ -47,8 +48,16 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         flexDirection: 'row',
         backgroundColor: '#D3D3D399',
-        justifyContent: 'center',
-        padding: '5px'
+        padding: '5px',
+        align: 'center',
+        justify: 'center'
+    },
+    regDiv: {
+        display: 'flex',
+        flexDirection: 'row',
+        align: 'center',
+        justify: 'center',
+        padding: '20px'
     },
     formControl: {
         margin: theme.spacing(1),
@@ -112,14 +121,6 @@ function ControlledOpenSelect(props) {
         setOpen(true);
     };
 
-    /*
-    const fetchData = useCallback(async () => {
-        const response = await fetch('/api/nretrieval')
-        const data = await response.json() 
-        setData(data)
-    }, []) 
-    */
-
     useLayoutEffect(() => {
         let source
         //faunaData is an array???
@@ -170,9 +171,11 @@ function ControlledOpenSelect(props) {
                     <MenuItem value={"une"}>une</MenuItem>
                 </Select>
             </FormControl>
-            <Typography>
-                <h2>{displayFrench}</h2>
+            <div className = {classes.regDiv}>
+            <Typography variant = "h6" style={{ fontWeight: 600}}>
+                {displayFrench}
             </Typography>
+            </div>
             <Button
                 variant="contained"
                 color="secondary"
