@@ -69,14 +69,15 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const pickRandomVocab = () => {
+    console.log('using backup')
     var obj_keys = Object.keys(nouns);
     var ran_key = obj_keys[Math.floor(Math.random() * obj_keys.length)];
     return [nouns[ran_key]["noun"], nouns[ran_key]["article"]];
 }
 
 const happyPath = (argument) => {
-    //console.log(argument.length)
-    //console.dir(argument)
+    console.log('on happy path')
+    console.dir(argument)
     var ran_key = Math.floor(Math.random() * argument.length);
     //console.log(ran_key)
     //console.log(argument["0"]["data"].noun)
@@ -86,14 +87,11 @@ const happyPath = (argument) => {
 function ControlledOpenSelect(props) {
 
     const classes = useStyles();
-    //const [faunaData, setData] = React.useState()
     const [displayFrench, setDisplayFrench] = React.useState('');
     const [pick, setPick] = React.useState('');
     const [correct, setCorrect] = React.useState('');
     const [correctPick, correctFlag] = React.useState(false);
     const [open, setOpen] = React.useState(false);
-    //const faunaData = useRef(props.faunaResponse)
-
 
     //For filling in user-selection
     const handlePick = (event) => {
@@ -123,12 +121,12 @@ function ControlledOpenSelect(props) {
 
     useLayoutEffect(() => {
         let source
-        //faunaData is an array???
-        //console.log(faunaData["0"]["data"].noun)
+
+        //data from Fauna is an object btw
         try{
             source = happyPath(props.faunaData)
         } catch(err) {
-            console.log("Problemo")
+            console.log(err)
             source = pickRandomVocab();
         }
 
@@ -152,7 +150,6 @@ function ControlledOpenSelect(props) {
        
     }, [correctPick] //The second argument to useEffect controls rerender
     );
-
 
     return (
         <div className={classes.mainDiv}>
@@ -194,17 +191,12 @@ function GenderNounsPage() {
     const classes = useStyles();
     const [faunaResponse, setData] = React.useState()
 
-    /*const fetchData = useCallback(async () => {
-        const response = await fetch('/api/nretrieval')
-        const data = await response.json() 
-        setData(data)
-    }, [])*/
-
     useEffect(() => {
 
         const fetchData = async () => {
             const response = await fetch('/api/nretrieval')
             const data = await response.json() 
+            console.log(data)
             setData(data)
         }
         fetchData()
@@ -236,4 +228,4 @@ function GenderNounsPage() {
         </Grid>
 
     );
-}export default GenderNounsPage
+} export default GenderNounsPage

@@ -14,6 +14,7 @@ import ArticlesPage from './ArticlesPage';
 import Verbs from './VerbsPage';
 import About from './About';
 import Grammar from './Grammar';
+import FaunaTester from './FaunaTester';
 
 import Image from './backgrounds/PissaroTransfer1.png'; //relative path import, maybe fix idk
 
@@ -84,6 +85,7 @@ function LandingPage() {
             <Route path="/Verbs" exact component={Verbs}/>
             <Route path="/Grammar" exact component={Grammar}/>
             <Route path="/About" exact component={About}/>
+            <Route path="/Test" exact component={FaunaTester}/>
             </Switch>
             </Router>
         </Grid>
