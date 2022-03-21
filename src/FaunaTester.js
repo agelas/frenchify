@@ -28,7 +28,15 @@ export default function FaunaTester() {
     const classes = useStyles();
 
     const fetchData = async () => {
-        const response = await fetch('/api/nretrieval')
+        const response = await fetch('/api/nretrieval', {
+            headers: {
+                "Access-Control-Allow-Origin" : "*",
+                "Access-Control-Allow-Credentials" : true ,
+                "Accept": "/",
+                "Content-Type": "application/json",
+            },
+            method: 'GET'
+        })
         const data = await response.json() 
         console.log(data)
         setData(JSON.stringify(data))
