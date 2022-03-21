@@ -194,7 +194,7 @@ function GenderNounsPage() {
     useEffect(() => {
 
         const fetchData = async () => {
-            const response = await fetch('/api/nretrieval')
+            const response = await fetch('/api/nretrieval/nretrieval')
             const data = await response.json() 
             console.log(data)
             setData(data)

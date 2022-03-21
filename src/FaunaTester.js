@@ -28,7 +28,7 @@ export default function FaunaTester() {
     const classes = useStyles();
 
     const fetchData = async () => {
-        const response = await fetch('/api/nretrieval', {
+        const response = await fetch('/api/nretrieval/nretrieval', {
             headers: {
                 "Access-Control-Allow-Origin" : "*",
                 "Access-Control-Allow-Credentials" : true ,
